@@ -1,0 +1,36 @@
+
+@media (max-width: 960px){
+
+}
+
+@media (max-width: 720px){
+
+}
+
+@media (max-width: 540px){
+
+  .wrapper{
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  /* NAVBAR STYLING */
+
+  .logo{
+    width: 20%;
+  }
+
+  .link{
+    font-size: 0.6em;
+    list-style-type: none;
+  }
+
+  /* BANNER STYLING */
+
+  .chevron-down{
+    top: 0em;
+    text-align: center;
+    font-size: 2em;
+  }
+
+}

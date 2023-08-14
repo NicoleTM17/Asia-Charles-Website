@@ -1,0 +1,42 @@
+
+#about{
+  background: #EBEAE9;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.about-me{
+  display: flex;
+  padding: 5em;
+}
+
+.about-text{
+  padding: 5em 0em;
+  text-align: center;
+  /* border: 1px solid red; */
+  z-index: 1;
+}
+
+.collage-one{
+  width: 45em;
+  margin-right: -3em;
+}
+
+.flower-border{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20em;
+  z-index: 0;
+}
+
+
+.fade-in-text{
+  animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}

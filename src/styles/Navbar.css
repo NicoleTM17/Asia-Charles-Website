@@ -1,6 +1,6 @@
 
 #nav-bar {
-  background-color: #93BFCF;
+  background-color: #D6E8DB;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,8 +9,8 @@
 }
 
 .logo {
-  width: 8%;
-  color: white;
+  width: 9%;
+  /* color: white; */
 }
 
 .links {
@@ -23,7 +23,8 @@
 
 .link {
   margin-left: 1em;
-  color: white;
+  /* color: white; */
+  color: black;
   font-weight: 600;
   font-size: 1em;
   padding: 0.5em 1em;
@@ -34,15 +35,15 @@
 }
 
 .link:hover {
-  background-color: #a9d7e8;
+  background-color: #c7d7cb;
 }
 
 .space {
   margin-right: 1.5em;
 }
 
-.sticky{
+/* .sticky{
   position: fixed;
   top: 0;
   width: 100%;
-}
+} */
