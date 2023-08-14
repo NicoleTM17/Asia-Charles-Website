@@ -17,21 +17,21 @@ function Banner() {
         <Carousel.Item>
           <img className="d-block w-100 carousel-image custom-opacity" src={Banner1} alt="First slide"/>
           <Carousel.Caption>
-            <h3 className='carousel-slogan slogan'>Be Brave, Be Free, Be <strong>You</strong><span className='dot'>.</span></h3>
+            <h3 className='carousel-slogan slogan fade-in-text'>Be brave, be free, be you</h3>
             <div><FontAwesomeIcon className='chevron-down' icon={faChevronDown}/></div>
           </Carousel.Caption>
         </Carousel.Item>
 
         <Carousel.Item> <img className="d-block w-100 carousel-image custom-opacity" src={Banner2} alt="Second slide"/>
           <Carousel.Caption>
-            <h3 className='carousel-slogan slogan'>Be Brave, Be Free, Be <strong>You</strong><span className='dot'>.</span></h3>
+            <h3 className='carousel-slogan slogan'>Be brave, be free, be you</h3>
             <div><FontAwesomeIcon className='chevron-down' icon={faChevronDown}/></div>
           </Carousel.Caption>
         </Carousel.Item>
 
         <Carousel.Item> <img className="d-block w-100 carousel-image custom-opacity" src={Banner3} alt="Third slide"/>
           <Carousel.Caption>
-            <h3 className='carousel-slogan slogan'>Be Brave, Be Free, Be <strong>You</strong><span className='dot'>.</span></h3>
+            <h3 className='carousel-slogan slogan'>Be brave, be free, be you</h3>
             <div><FontAwesomeIcon className='chevron-down' icon={faChevronDown}/></div>
           </Carousel.Caption>
         </Carousel.Item>

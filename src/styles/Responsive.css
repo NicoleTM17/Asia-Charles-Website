@@ -27,10 +27,35 @@
 
   /* BANNER STYLING */
 
+  .carousel-slogan{
+    font-size: 1.1em;
+  }
+
   .chevron-down{
     top: 0em;
     text-align: center;
     font-size: 2em;
   }
 
+  /* ABOUT STYLING */
+
+  .about-me{
+    display: block;
+    margin: 0 auto;
+  }
+
+  .flower-border{
+    width: 10em;
+  }
+
+  .welcome-txt{
+    font-size: 2em;
+    /* display: block;
+    margin: 0 auto; */
+  }
+
+  .collage-one{
+    width: 20em;
+    margin-left: -3em;
+  }
 }

@@ -10,7 +10,7 @@ function About(){
       <div className='about-me'>
         <img className='flower-border' src='images/flower-border.png' alt='border'/>
         <div className='about-text'>
-          <h1 style={{fontSize: '3em'}} className='welcome-txt fade-in-text'><span style={{fontSize: '3.5em'}}>W</span>elcome, I'm Asia</h1>
+          <h1 className='welcome-txt'><span style={{fontSize: '3.5em'}}>W</span>elcome, I'm Asia</h1>
           <p style={{textAlign: 'center', fontSize: '2em'}}>⋆｡°✩</p>
           <p className='welcome-content'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         </div>

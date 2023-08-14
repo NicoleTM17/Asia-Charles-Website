@@ -9,7 +9,7 @@
 .hamburger-menu .bar {
   width: 25px;
   height: 3px;
-  background-color: #fff;
+  background-color: rgba(0, 0, 0, 0.8);
   margin: 4px 0;
   transition: 0.3s;
 }
