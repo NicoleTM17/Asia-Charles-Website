@@ -1,10 +1,11 @@
 
-#navbar {
-  background-color: #7eaa92;
+#nav-bar {
+  background-color: #93BFCF;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1em;
+  width: 100%;
 }
 
 .logo {
@@ -33,7 +34,7 @@
 }
 
 .link:hover {
-  background-color: #9ed2be;
+  background-color: #a9d7e8;
 }
 
 .space {

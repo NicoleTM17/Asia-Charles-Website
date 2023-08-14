@@ -17,7 +17,7 @@ function Navbar(){
     });
 
   return(
-    <div id='navbar' className={`${isSticky ? "sticky" : ""}`}>
+    <div id='nav-bar' className={`${isSticky ? "sticky" : ""}`}>
       <img className='logo' src='images/logo.png' alt='logo'/>
       <ul className='links'>
         <li className='link'>Home</li>
