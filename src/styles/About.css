@@ -46,6 +46,8 @@
   display: block;
   margin: 0 auto;
   background-color: white;
+  cursor: pointer;
+  transition: 200ms ease-in-out;
 }
 
 .services-btn:hover{

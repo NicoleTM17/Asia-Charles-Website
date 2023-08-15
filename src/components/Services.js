@@ -1,6 +1,5 @@
 
 import '../styles/Services.css';
-import '../styles/Responsive.css'; // MOVE TO NEXT COMPONENT
 
 function Services() {
   return(

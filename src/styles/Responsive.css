@@ -94,4 +94,16 @@
     margin-top: 2em;
   }
 
+  /* REVIEWS STYLING */
+
+  .my-reviews{
+    display: block;
+    margin: 0 auto;
+    margin-left: -5em;
+  }
+
+  .review-section{
+    margin-top: 4em;
+    width: 400px;
+  }
 }

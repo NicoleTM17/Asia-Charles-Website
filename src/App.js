@@ -10,6 +10,7 @@ import Navbar from './components/Navbar.js';
 import Banner from './components/Banner.js';
 import About from './components/About.js';
 import Services from './components/Services.js';
+import Reviews from './components/Reviews.js';
 
 library.add(faChevronDown);
 
@@ -20,6 +21,7 @@ function App() {
       <Banner/>
       <About/>
       <Services/>
+      <Reviews/>
     </div>
   );
 }
