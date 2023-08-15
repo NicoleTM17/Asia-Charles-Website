@@ -48,14 +48,50 @@
     width: 10em;
   }
 
+
   .welcome-txt{
     font-size: 2em;
-    /* display: block;
-    margin: 0 auto; */
+    margin-top: -1em;
+  }
+
+  .about-collage{
+    display: block;
+    margin-left: -3em;
   }
 
   .collage-one{
     width: 20em;
-    margin-left: -3em;
   }
+
+  /* SERVICES STYLING */
+
+  #services{
+    padding: 3em 1em;
+  }
+
+  .my-services-quote{
+    font-size: 1.5em;
+  }
+
+  .services-wrapper{
+    display: block;
+    margin: 2 auto;
+  }
+
+  .lesson-box{
+    width: 30%;
+    height: 100%;
+  }
+
+  .outcomes{
+    display: block;
+    margin-top: 2em;
+    padding: 1em 0.5em;
+    line-height: 1;
+  }
+
+  .lesson-outcomes{
+    margin-top: 2em;
+  }
+
 }

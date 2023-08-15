@@ -9,6 +9,7 @@ import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import Navbar from './components/Navbar.js';
 import Banner from './components/Banner.js';
 import About from './components/About.js';
+import Services from './components/Services.js';
 
 library.add(faChevronDown);
 
@@ -18,6 +19,7 @@ function App() {
       <Navbar/>
       <Banner/>
       <About/>
+      <Services/>
     </div>
   );
 }

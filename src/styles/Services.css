@@ -1,0 +1,79 @@
+#services{
+  width: 100%;
+  height: 100vh;
+  padding: 5em 10em;
+  position: relative;
+  overflow-x: hidden;
+}
+
+.my-services-quote{
+  text-align: center;
+  font-size: 3em;
+}
+
+.my-services-text{
+  text-align: center;
+  font-size: 1em;
+}
+
+.services-wrapper{
+  display: flex;
+  margin-top: 3em;
+}
+
+.lesson-plan{
+  text-align: center;
+}
+
+.lesson-plan-boxes-one{
+  display: flex;
+  margin-right: 1em;
+  margin-top: 2em;
+}
+
+.lesson-box{
+  position: relative;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 150px;
+  height: 150px;
+  padding: 1.5em 1em;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-left: 1em;
+}
+
+.lesson-plan-boxes-two{
+  display: flex;
+  margin-right: 1em;
+  margin-top: 2em;
+}
+
+.number{
+  position: absolute;
+  top: 0;
+  left: 0.5em;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.outcomes{
+  padding-left: 7em;
+}
+
+.lesson-outcomes-header{
+  text-align: center;
+}
+
+.lesson-outcomes{
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 2em 2em;
+  line-height: 3;
+}
+
+.outcome{
+  list-style-type: circle;
+}
