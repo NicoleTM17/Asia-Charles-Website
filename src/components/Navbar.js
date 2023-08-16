@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
 
 import '../styles/Navbar.css';
 import Menu from './Menu.js';
@@ -34,21 +35,21 @@ function Navbar(){
         <Menu isOpen={menuOpen} onClick={handleMenuClick} />
       ) : (
         <ul className='links'>
-          <li className='link'>Home</li>
-          <li className='link'>About</li>
-          <li className='link'>Services</li>
-          <li className='link'>Reviews</li>
-          <li className='link space'>Contact me</li>
+          {/* <Link><li className='link'>Home</li></Link> */}
+          <Link to='#about' style={{textDecoration: 'none'}} smooth><li className='link'>About</li></Link>
+          <Link to='#services' style={{textDecoration: 'none'}} smooth><li className='link'>Services</li></Link>
+          <Link to='#reviews' style={{textDecoration: 'none'}} smooth><li className='link'>Reviews</li></Link>
+          <Link to='#contact' style={{textDecoration: 'none'}} smooth><li className='link space'>Contact me</li></Link>
         </ul>
       )}
       {isMobile && menuOpen && (
         <div className="mobile-links">
           <ul>
-            <li className='link'>Home</li>
-            <li className='link'>About</li>
-            <li className='link'>Services</li>
-            <li className='link'>Reviews</li>
-            <li className='link space'>Contact me</li>
+            {/* <li className='link'>Home</li> */}
+            <Link to='#about' style={{textDecoration: 'none'}} smooth><li className='link'>About</li></Link>
+            <Link to='#services' style={{textDecoration: 'none'}} smooth><li className='link'>Services</li></Link>
+            <Link to='#reviews' style={{textDecoration: 'none'}} smooth><li className='link'>Reviews</li></Link>
+            <Link to='#contact' style={{textDecoration: 'none'}} smooth><li className='link space'>Contact me</li></Link>
           </ul>
         </div>
       )}

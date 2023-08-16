@@ -4,8 +4,9 @@
   height: 80vh;
   padding: 3em;
   overflow-x: hidden;
-  background-color: rgba(0, 0, 0, 0.8);
-  color: white;
+  /* background-color: rgba(0, 0, 0, 0.8); */
+  background-color: #5f7d89;
+  color: #e9f0ec;
 }
 
 .contact-me{

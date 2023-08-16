@@ -1,3 +1,4 @@
+import { HashLink as Link } from 'react-router-hash-link';
 import Carousel from 'react-bootstrap/Carousel';
 
 import Banner1 from './carousel/Banner1.jpg';
@@ -18,21 +19,21 @@ function Banner() {
           <img className="d-block w-100 carousel-image custom-opacity" src={Banner1} alt="First slide"/>
           <Carousel.Caption>
             <h3 className='carousel-slogan slogan fade-in-text'>Be brave, be free, be you</h3>
-            <div><FontAwesomeIcon className='chevron-down' icon={faChevronDown}/></div>
+            <Link to='#about' smooth><div><FontAwesomeIcon className='chevron-down' icon={faChevronDown}/></div></Link>
           </Carousel.Caption>
         </Carousel.Item>
 
         <Carousel.Item> <img className="d-block w-100 carousel-image custom-opacity" src={Banner2} alt="Second slide"/>
           <Carousel.Caption>
             <h3 className='carousel-slogan slogan'>Be brave, be free, be you</h3>
-            <div><FontAwesomeIcon className='chevron-down' icon={faChevronDown}/></div>
+            <Link to='#about' smooth><div><FontAwesomeIcon className='chevron-down' icon={faChevronDown}/></div></Link>
           </Carousel.Caption>
         </Carousel.Item>
 
         <Carousel.Item> <img className="d-block w-100 carousel-image custom-opacity" src={Banner3} alt="Third slide"/>
           <Carousel.Caption>
             <h3 className='carousel-slogan slogan'>Be brave, be free, be you</h3>
-            <div><FontAwesomeIcon className='chevron-down' icon={faChevronDown}/></div>
+            <Link to='#about' smooth><div><FontAwesomeIcon className='chevron-down' icon={faChevronDown}/></div></Link>
           </Carousel.Caption>
         </Carousel.Item>
 

@@ -45,7 +45,7 @@
   text-align: center;
   display: block;
   margin: 0 auto;
-  background-color: white;
+  background-color: #e9f0ec;
   cursor: pointer;
   transition: 200ms ease-in-out;
 }
