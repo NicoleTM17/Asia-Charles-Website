@@ -14,10 +14,11 @@
 
 .connect-header{
   font-size: 4.5em;
-  margin-bottom: 0.5em;
+  /* margin-bottom: 0.5em; */
 }
 
 .enquiries{
+  margin-top: 3em;
   margin-bottom: 3em;
 }
 
@@ -36,6 +37,7 @@
   background-color: black;
   border-radius: 50%;
   padding: 5px 9px;
+  color: white;
 }
 
 .insta:hover{
@@ -49,6 +51,7 @@
   background-color: black;
   border-radius: 50%;
   padding: 5px 6px;
+  color: white;
 }
 
 .yt:hover{
