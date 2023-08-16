@@ -22,6 +22,8 @@
 .footer-insta{
   font-size: 2em;
   color: #e9f0ec;
+  cursor: pointer;
+  transition: 200ms ease-in-out;
 }
 
 .footer-insta:hover{
@@ -32,6 +34,8 @@
   margin-left: 8px;
   font-size: 2em;
   color: #e9f0ec;
+  cursor: pointer;
+  transition: 200ms ease-in-out;
 }
 
 .footer-yt:hover{

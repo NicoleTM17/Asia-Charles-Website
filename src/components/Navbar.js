@@ -29,13 +29,13 @@ function Navbar(){
 
 
   return(
-    <div id='nav-bar'>
+    <div id ='home' className='nav-bar'>
       <img className='logo' src='images/logo.png' alt='logo'/>
       {isMobile ? (
         <Menu isOpen={menuOpen} onClick={handleMenuClick} />
       ) : (
         <ul className='links'>
-          {/* <Link><li className='link'>Home</li></Link> */}
+          <li className='link' style={{textDecoration: 'underline', textUnderlineOffset: 3}}>Home</li>
           <Link to='#about' style={{textDecoration: 'none'}} smooth><li className='link'>About</li></Link>
           <Link to='#services' style={{textDecoration: 'none'}} smooth><li className='link'>Services</li></Link>
           <Link to='#reviews' style={{textDecoration: 'none'}} smooth><li className='link'>Reviews</li></Link>

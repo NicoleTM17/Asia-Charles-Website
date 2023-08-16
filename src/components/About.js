@@ -1,11 +1,19 @@
-
+import { HashLink as Link } from 'react-router-hash-link';
 import '../styles/About.css';
 
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronUp} from '@fortawesome/free-solid-svg-icons';
 
 function About(){
 
   return(
     <div id='about'>
+
+      <div className='chevron-container' style={{position:'sticky', top: 10}}>
+        <Link className='chevron-up sticky' to='#home' smooth><FontAwesomeIcon icon={faChevronUp}/></Link>
+      </div>
+
       <div className='about-me'>
         <img className='flower-border' src='images/flower-border.png' alt='border'/>
         <div className='about-text'>
@@ -20,6 +28,7 @@ function About(){
         </div>
 
       </div>
+
 
     </div>
   );

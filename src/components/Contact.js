@@ -15,7 +15,7 @@ function Contact() {
           <h1 className='connect-header'>Connect with me!</h1>
           <p style={{textAlign: 'center', fontSize: '2em'}}>‧₊˚❀༉‧₊˚.</p>
           <div className='enquiries'>
-            <h2 className='business-enquiries'>Business Enquiries:</h2>
+            <h2 className='business-enquiries'>Business enquiries:</h2>
             <p className='email'>Email address</p>
             <p className='phone'>Phone number</p>
           </div>

@@ -5,6 +5,7 @@ import './App.css';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
+import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 
@@ -18,6 +19,7 @@ import Footer from './components/Footer.js';
 
 
 library.add(faChevronDown);
+library.add(faChevronUp);
 library.add(faInstagram);
 library.add(faYoutube);
 

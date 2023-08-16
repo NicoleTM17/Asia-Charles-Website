@@ -39,6 +39,10 @@
 
   /* ABOUT STYLING */
 
+  #about{
+    height: 100%;
+  }
+
   .about-me{
     display: block;
     margin: 0 auto;
@@ -72,6 +76,8 @@
 
   #services{
     padding: 3em 1em;
+    /* width: 100%; */
+    height: 100%;
   }
 
   .my-services-quote{
@@ -101,6 +107,10 @@
 
   /* REVIEWS STYLING */
 
+  #reviews{
+    height: 100%;
+  }
+
   .my-reviews{
     display: block;
     margin: 0 auto;
@@ -113,6 +123,10 @@
   }
 
   /* CONTACT STYLING */
+
+  #contact{
+    height: 100%;
+  }
 
   .contact-me{
     display: inline-block;
