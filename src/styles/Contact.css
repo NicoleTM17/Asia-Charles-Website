@@ -1,0 +1,56 @@
+
+#contact{
+  width: 100%;
+  height: 80vh;
+  padding: 3em;
+  overflow-x: hidden;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.contact-me{
+  display: flex;
+}
+
+.connect-header{
+  font-size: 4.5em;
+  margin-bottom: 0.5em;
+}
+
+.enquiries{
+  margin-bottom: 3em;
+}
+
+.contact-img{
+  width: 40em;
+  margin-left: 6em;
+}
+
+.socials-header{
+  margin-bottom: 0.5em;
+}
+
+.insta{
+  font-size: 2em;
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 50%;
+  padding: 5px 9px;
+}
+
+.insta:hover{
+  opacity: 0.8;
+}
+
+.yt{
+  margin-left: 10px;
+  font-size: 2em;
+  border: 1px solid black;
+  background-color: black;
+  border-radius: 50%;
+  padding: 5px 6px;
+}
+
+.yt:hover{
+  opacity: 0.8;
+}

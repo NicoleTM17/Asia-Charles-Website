@@ -1,7 +1,8 @@
 
 #nav-bar {
   /* background-color: #D6E8DB; */
-  background-color: #EBEAE9;
+  /* background-color: #EBEAE9; */
+  background-color: #6B867C;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -24,9 +25,9 @@
 
 .link {
   margin-left: 1em;
-  /* color: white; */
-  color: black;
-  font-weight: 200;
+  color: #e9f0ec;
+  /* color: black; */
+  font-weight: 300;
   font-size: 1em;
   padding: 0.5em 1em;
   /* box-sizing: border-box; */

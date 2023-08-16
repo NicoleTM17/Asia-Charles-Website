@@ -1,14 +1,13 @@
 
 import '../styles/Reviews.css';
-import '../styles/Responsive.css'; // MOVE TO NEXT COMPONENT
 
 function Reviews(){
 
   const reviews = [
 
-    {author: '<strong>Caitlain</strong>', text: "Asia is truly an amazing tutor, she's helped me develop a <em>passion</em> for meditation through her <em>dedicated</em> sessions. I look forward to go to more of her sessions in the future!"},
-    {author: '<strong>Elan</strong>', text: "Asia is one of those teachers you can only hope to meet, open, honest, and <em>genuinely empathetic</em>. You, like me, previously insecure and severely lacking in confidence, can change your story for the better with a highly regarded mindfulness coach of the highest calibre, that is, someone who is <em>naturally gifted</em> and aware."},
-    {author: '<strong>Mattia</strong>', text: "I was struggling with anxiety due to exam stress and Asia's lessons on meditation an mindfulness helped me in keeping my anxiety <em>under control</em>. She is very kind and understanding person and I would totally <em>recommend</em> her if you are struggling to implement mindfulness in your life, because her tips and invaluable advice will definitely help you."}
+    {author: '<strong>Caitlain</strong>', text: "'Asia is truly an amazing tutor, she's helped me develop a <em>passion</em> for meditation through her <em>dedicated</em> sessions. I look forward to go to more of her sessions in the future!'"},
+    {author: '<strong>Elan</strong>', text: "'Asia is one of those teachers you can only hope to meet, open, honest, and <em>genuinely empathetic</em>. You, like me, previously insecure and severely lacking in confidence, can change your story for the better with a highly regarded mindfulness coach of the highest calibre, that is, someone who is <em>naturally gifted</em> and aware.'"},
+    {author: '<strong>Mattia</strong>', text: "'I was struggling with anxiety due to exam stress and Asia's lessons on meditation an mindfulness helped me in keeping my anxiety <em>under control</em>. She is very kind and understanding person and I would totally <em>recommend</em> her if you are struggling to implement mindfulness in your life, because her tips and invaluable advice will definitely help you.'"}
   ];
 
 

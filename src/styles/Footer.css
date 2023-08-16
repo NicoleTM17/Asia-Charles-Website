@@ -1,0 +1,37 @@
+#footer{
+  align-items: center;
+  justify-content: center;
+  padding: 1em 1em;
+  height: 100%;
+  width: 100%;
+  /* overflow-x: hidden; */
+  /* background-color: #EBEAE9; */
+  background-color: #6B867C;
+  color: rgb(233, 240, 236);
+}
+
+.footer-copyright{
+  text-align: center;
+  opacity: 0.9;
+}
+
+.footer-socials{
+  text-align: center;
+}
+
+.footer-insta{
+  font-size: 2em;
+}
+
+.footer-insta:hover{
+  opacity: 0.8;
+}
+
+.footer-yt{
+  margin-left: 8px;
+  font-size: 2em;
+}
+
+.footer-yt:hover{
+  opacity: 0.8;
+}
