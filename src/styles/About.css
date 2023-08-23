@@ -2,7 +2,8 @@
 #about{
   background: var(--platinum-colors);
   width: 100%;
-  height: 800px;
+  /* height: 800px; */
+  height: 100%;
   position: relative;
   /* overflow-x: hidden; */
 }
@@ -15,24 +16,48 @@
 .welcome-txt{
   font-size: 3em;
   color: #ABBB5A;
+  text-align: center;
 }
 
 .welcome-content{
   color: var(--licorice-black-color);
+  font-weight: 300;
+  padding-right: 2em;
 }
 
 
 .about-text{
   padding: 5em 0em;
-  text-align: center;
+  /* text-align: center; */
   /* border: 1px solid red; */
   z-index: 1;
 }
 
-.collage-one{
+.slogan-txt{
+  display: block;
+  margin: 0 auto;
+  margin-top: 10em;
+  width: 75%;
+}
+
+/* .collage-one{
   width: 30em;
   margin-right: -3em;
   margin-top: 3em;
+} */
+
+.about-page-img{
+  max-width: 100%; /* Ensure the image is responsive */
+  height: 50%;
+  border: 5px solid var(--grass-green-color);
+  margin-top: 5em; /* rEMOVE IF MULTIPLE PICS */
+}
+
+.about-page-img-two{
+  margin-top: 2em;
+  max-width: 100%;
+  height: 50%;
+  border: 5px solid var(--grass-green-color);
 }
 
 .flower-border{
@@ -51,6 +76,7 @@
   font-weight: 500;
   text-align: center;
   display: block;
+  margin-top: 2em !important;
   margin: 0 auto;
   background-color: var(--grass-green-color);
   color: var(--off-white-color);
@@ -59,7 +85,7 @@
 }
 
 .services-btn:hover{
-  background-color: var(--platinum-color);
-  color: var(--licorice-black-color);
-  border: 2px solid var(--grass-green-color);
+  background-color: #8c994a;
+  color: var(--off-white-color);
+  border: 2px solid #8c994a;
 }
