@@ -16,8 +16,8 @@ function Reviews(){
     <div id='reviews' style={{backgroundImage: 'linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)), url(https://images.unsplash.com/photo-1604251405903-b8c4e83cdf7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1188&q=80)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}}>
 
       <div className='my-reviews'>
-        {reviews.map((review) => (
-          <div className='review-section' >
+        {reviews.map((review, index) => (
+          <div className='review-section' key={index} >
             <p className='review-txt' dangerouslySetInnerHTML={{ __html: review.text }}/>
             <p className='author' dangerouslySetInnerHTML={{ __html: review.author }}/>
           </div>

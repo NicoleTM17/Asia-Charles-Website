@@ -67,11 +67,13 @@
 
 /* STICKY */
 
-.chevron-container{
+.chevron-btn-container{
   padding-top: 3em;
 }
 
-.chevron-up{
+.chevron-btn{
+  position: sticky;
+  top: 10px;
   float: right;
   margin-right: 15px;
   /* margin-top: 10px; */
@@ -83,9 +85,8 @@
   padding: 0px 8px;
   cursor: pointer;
   transition: 200ms ease-in-out;
-  z-index: 1;
 }
 
-.chevron-up:hover{
+.chevron-btn:hover{
   opacity: 0.8;
 }

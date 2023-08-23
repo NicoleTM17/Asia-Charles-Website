@@ -6,6 +6,11 @@
   max-height: 50%;
 }
 
+.carousel .carousel-item img {
+  height: 750px;
+}
+
+
 .slogan{
   font-size: 3.8em;
   font-weight: 300;
@@ -17,7 +22,7 @@
 
 .carousel-slogan{
   position: absolute;
-  bottom: 8.5em;
+  bottom: 7em;
   left: 5em;
   z-index: 1;
   color: var(--off-white-color);
@@ -29,7 +34,7 @@
 
 .chevron-down{
   position: absolute;
-  bottom: 4em;
+  bottom: 1em;
   text-align: center;
   font-size: 4em;
   z-index: 1;

@@ -1,74 +1,48 @@
-import { useState, useEffect } from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
+// import { HashLink as Link } from 'react-router-hash-link';
+import Nav from 'react-bootstrap/Nav';
+import Navbar  from 'react-bootstrap/Navbar';
+import { useState } from 'react';
 
 import '../styles/Navbar.css';
-import Menu from './Menu.js';
 
 
-function Navbar(){
+function NavbarElements(){
 
-    const [isMobile, setIsMobile] = useState(false);
-    const [menuOpen, setMenuOpen] = useState(false);
+  const [expanded, setExpanded] = useState(false);
 
-    const handleMenuClick = () => {
-      setMenuOpen(!menuOpen);
-    }
+  const handleToggle = () => {
+    setExpanded(!expanded);
+  }
 
-    useEffect(() => {
-      const handleResize = () => {
-        setIsMobile(window.innerWidth <= 540);
-      };
-
-      handleResize();
-      window.addEventListener('resize', handleResize);
-
-      return () => {
-        window.removeEventListener('resize', handleResize);
-      };
-    }, []);
-
+  // const screenSize = window.innerWidth;
 
   return(
-    <div id ='home' className='nav-bar'>
-      <img className='logo' src='images/logo.png' alt='logo'/>
-      {isMobile ? (
-        <Menu isOpen={menuOpen} onClick={handleMenuClick} />
-      ) : (
-        <ul className='links'>
-          <li className='link' style={{textDecoration: 'underline', textUnderlineOffset: 3}}>Home</li>
-          <Link to='#about' style={{textDecoration: 'none'}} smooth><li className='link'>About</li></Link>
-          <Link to='#services' style={{textDecoration: 'none'}} smooth><li className='link'>Services</li></Link>
-          <Link to='#reviews' style={{textDecoration: 'none'}} smooth><li className='link'>Reviews</li></Link>
-          <Link to='#contact' style={{textDecoration: 'none'}} smooth><li className='link space'>Contact me</li></Link>
-        </ul>
-      )}
-      {isMobile && menuOpen && (
-        <div className="mobile-links">
-          <ul>
-            {/* <li className='link'>Home</li> */}
-            <Link to='#about' style={{textDecoration: 'none'}} smooth><li className='link'>About</li></Link>
-            <Link to='#services' style={{textDecoration: 'none'}} smooth><li className='link'>Services</li></Link>
-            <Link to='#reviews' style={{textDecoration: 'none'}} smooth><li className='link'>Reviews</li></Link>
-            <Link to='#contact' style={{textDecoration: 'none'}} smooth><li className='link space'>Contact me</li></Link>
-          </ul>
+    <div id='home' className='nav-bar'>
+      <Navbar expand="md" expanded={expanded} onToggle={handleToggle}>
+        <Navbar.Brand href="#home">
+          <img
+            src="images/logo.png"
+            className="d-inline-block align-top logo"
+            alt="logo"
+          />
+        </Navbar.Brand>
+
+        <div className='ml-auto'>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
         </div>
-      )}
+
+        <Navbar.Collapse id="responsive-navbar-nav" className='justify-content-end'>
+          <Nav className='links ml-auto'>
+            <Nav.Link className='link' style={{textDecoration: 'underline', textUnderlineOffset: 3}} href="#home">Home</Nav.Link>
+            <Nav.Link className='link' href="#about">About</Nav.Link>
+            <Nav.Link className='link' href="#services">Services</Nav.Link>
+            <Nav.Link className='link' href="#reviews">Reviews</Nav.Link>
+            <Nav.Link className='link' href="#contact">Contact</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
     </div>
   );
 }
 
-export default Navbar;
-
-
-
- // OLD CODE FOR MAKING STICKY NAVBAR:
-    // const [isSticky, setIsSticky] = useState(false);
-
-    // useEffect(() => {
-    //   const handleScroll = () => {
-    //     setIsSticky(window.scrollY > 200)
-    //     // console.log(window.scrollY);
-    //   }
-    //   window.addEventListener('scroll', handleScroll);
-    //   return () => window.removeEventListener('scroll', handleScroll);
-    // });
+export default NavbarElements;

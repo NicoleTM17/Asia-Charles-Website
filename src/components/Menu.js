@@ -12,6 +12,3 @@ function Menu( {isOpen, onClick} ) {
     </div>
   )
 };
-
-
-export default Menu;
