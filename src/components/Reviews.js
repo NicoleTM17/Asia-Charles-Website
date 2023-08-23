@@ -5,9 +5,9 @@ function Reviews(){
 
   const reviews = [
 
-    {author: '<strong>Caitlain</strong>', text: "<em>'Asia is truly an amazing tutor, she's helped me develop a passion for meditation through her dedicated sessions. I look forward to go to more of her sessions in the future!'<em>"},
-    {author: '<strong>Elan</strong>', text: "<em>'Asia is one of those teachers you can only hope to meet, open, honest, and genuinely empathetic. You, like me, previously insecure and severely lacking in confidence, can change your story for the better with a highly regarded mindfulness coach of the highest calibre, that is, someone who is naturally gifted and aware.'</em>"},
-    {author: '<strong>Mattia</strong>', text: "<em>'I was struggling with anxiety due to exam stress and Asia's lessons on meditation an mindfulness helped me in keeping my anxiety under control. She is very kind and understanding person and I would totally recommend her if you are struggling to implement mindfulness in your life, because her tips and invaluable advice will definitely help you.'</em>"}
+    {author: '<strong>Caitlain Caine</strong>', text: "<em>'Asia is truly an amazing tutor, she's helped me develop a passion for meditation through her dedicated sessions. I look forward to go to more of her sessions in the future!'<em>"},
+    {author: '<strong>Elan Sang</strong>', text: "<em>'Asia is one of those teachers you can only hope to meet, open, honest, and genuinely empathetic. You, like me, previously insecure and severely lacking in confidence, can change your story for the better with a highly regarded mindfulness coach of the highest calibre, that is, someone who is naturally gifted and aware.'</em>"},
+    {author: '<strong>Mattia Dervasi</strong>', text: "<em>'I was struggling with anxiety due to exam stress and Asia's lessons on meditation an mindfulness helped me in keeping my anxiety under control. She is very kind and understanding person and I would totally recommend her if you are struggling to implement mindfulness in your life, because her tips and invaluable advice will definitely help you.'</em>"}
   ];
 
 

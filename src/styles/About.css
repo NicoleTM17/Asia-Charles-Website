@@ -1,6 +1,6 @@
 
 #about{
-  background: #EBEAE9;
+  background: var(--platinum-colors);
   width: 100%;
   height: 800px;
   position: relative;
@@ -9,11 +9,16 @@
 
 .about-me{
   display: flex;
-  padding: 5em;
+  padding: 4em;
 }
 
 .welcome-txt{
   font-size: 3em;
+  color: #ABBB5A;
+}
+
+.welcome-content{
+  color: var(--licorice-black-color);
 }
 
 
@@ -25,8 +30,9 @@
 }
 
 .collage-one{
-  width: 45em;
+  width: 30em;
   margin-right: -3em;
+  margin-top: 3em;
 }
 
 .flower-border{
@@ -38,20 +44,24 @@
 }
 
 .services-btn{
-  width: 20%;
-  border: 1px solid black;
+  width: 15%;
+  border: 2px solid var(--grass-green-color);
   border-radius: 4px;
   font-size: 0.75em;
+  font-weight: 500;
   text-align: center;
   display: block;
   margin: 0 auto;
-  background-color: #e9f0ec;
+  background-color: var(--grass-green-color);
+  color: var(--off-white-color);
   cursor: pointer;
   transition: 200ms ease-in-out;
 }
 
 .services-btn:hover{
-  opacity: 0.8;
+  background-color: var(--platinum-color);
+  color: var(--licorice-black-color);
+  border: 2px solid var(--grass-green-color);
 }
 
 
@@ -66,9 +76,9 @@
   margin-right: 15px;
   /* margin-top: 10px; */
   font-size: 2em;
-  border: 1px solid #85a8b7;
-  background-color: #85a8b7;
-  color: #e9f0ec;
+  border: 1px solid var(--nav-color);
+  background-color: var(--nav-color);
+  color: var(--off-white-color);
   border-radius: 50%;
   padding: 0px 8px;
   cursor: pointer;

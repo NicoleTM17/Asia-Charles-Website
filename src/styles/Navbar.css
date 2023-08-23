@@ -2,7 +2,7 @@
 .nav-bar {
   /* background-color: #D6E8DB; */
   /* background-color: #EBEAE9; */
-  background-color: #85a8b7;
+  background-color: var(--nav-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -25,7 +25,7 @@
 
 .link {
   margin-left: 1em;
-  color: #e9f0ec;
+  color: var(--off-white-color);
   /* color: black; */
   font-weight: 300;
   font-size: 1em;

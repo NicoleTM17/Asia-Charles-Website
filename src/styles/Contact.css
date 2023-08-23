@@ -6,7 +6,7 @@
   /* overflow-x: hidden; */
   /* background-color: rgba(0, 0, 0, 0.8); */
   background-color: #5f7d89;
-  color: #e9f0ec;
+  color: var(--off-white-color);
 }
 
 .contact-me{
@@ -38,7 +38,7 @@
   background-color: black;
   border-radius: 50%;
   padding: 5px 9px;
-  color: white;
+  color: var(--off-white-color);
   cursor: pointer;
   transition: 200ms ease-in-out;
 }
@@ -54,7 +54,7 @@
   background-color: black;
   border-radius: 50%;
   padding: 5px 6px;
-  color: white;
+  color: var(--off-white-color);
   cursor: pointer;
   transition: 200ms ease-in-out;
 }

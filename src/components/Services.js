@@ -1,9 +1,11 @@
 
 import '../styles/Services.css';
 
+// https://images.unsplash.com/photo-1607931042290-dcc5d8da1c7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80
+
 function Services() {
   return(
-    <div id='services' style={{backgroundImage: 'linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)), url(https://images.unsplash.com/photo-1607931042290-dcc5d8da1c7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}}>
+    <div id='services'>
 
       <div className='my-service'>
         <h2 className='my-services-quote'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</h2>
@@ -17,17 +19,17 @@ function Services() {
             <div className='lesson-plan-boxes-one'>
               <div className='lesson-box'>
                 <p className='number'>1.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <p style={{fontWeight: '300'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
               </div>
 
               <div className='lesson-box'>
                 <p className='number'>2.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <p style={{fontWeight: '300'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
               </div>
 
               <div className='lesson-box'>
                 <p className='number'>3.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <p style={{fontWeight: '300'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
               </div>
             </div>
           </div>
@@ -36,17 +38,17 @@ function Services() {
             <div className='lesson-plan-boxes-two'>
               <div className='lesson-box'>
                 <p className='number'>4.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <p style={{fontWeight: '300'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
               </div>
 
               <div className='lesson-box'>
                 <p className='number'>5.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <p style={{fontWeight: '300'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
               </div>
 
               <div className='lesson-box'>
                 <p className='number'>6.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <p style={{fontWeight: '300'}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
               </div>
             </div>
           </div>
@@ -72,3 +74,8 @@ function Services() {
 };
 
 export default Services;
+
+
+
+
+// style={{backgroundImage: 'linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url(https://images.unsplash.com/photo-1607931042290-dcc5d8da1c7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}}

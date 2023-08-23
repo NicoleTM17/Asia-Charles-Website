@@ -1,3 +1,16 @@
+
+/* DEFINING COLOURS */
+
+:root {
+  --nav-color: #85a8b7; /* navbar colour */
+  --off-white-color: #e9f0ec; /* off-white colour */
+  --licorice-black-color: #0D040F; /* black colour */
+  --platinum-color: #EBEAE9; /* beige background colour */
+  --grass-green-color: #ABBB5A; /* green colour */
+}
+
+/* #ABBB5A green */
+
 .wrapper{
   width: 100%;
   overflow-x: hidden;
