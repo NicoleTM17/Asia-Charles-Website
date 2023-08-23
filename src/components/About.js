@@ -10,8 +10,8 @@ function About(){
   return(
     <div id='about'>
 
-      <div className='chevron-container' style={{position:'sticky', top: 10}}>
-        <Link className='chevron-up sticky' to='#home' smooth><FontAwesomeIcon icon={faChevronUp}/></Link>
+      <div className='chevron-btn-container'>
+        <Link className='chevron-btn' to='#home' smooth><FontAwesomeIcon icon={faChevronUp}/></Link>
       </div>
 
       <div className='about-me'>
