@@ -10,9 +10,9 @@ function About(){
   return(
     <div id='about'>
 
-      <div className='chevron-btn-container'>
-        <Link className='chevron-btn' to='#home' smooth><FontAwesomeIcon icon={faChevronUp}/></Link>
-      </div>
+
+      <Link className='chevron-btn sticky' to='#home' smooth><FontAwesomeIcon icon={faChevronUp}/></Link>
+
 
       <div className='about-me'>
         <img className='flower-border' src='images/flower-border.png' alt='border'/>
