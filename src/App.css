@@ -12,7 +12,7 @@
 /* #ABBB5A green */
 
 .wrapper{
-  /* width: 100%; */
+  width: 100%; /* might need to get rid of if implementing sticky */
   height: 100%;
-  /* overflow-x: hidden; */
+  overflow-x: hidden; /* might need to get rid of if implementing sticky */
 }

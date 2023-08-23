@@ -1,13 +1,16 @@
-
+// import { HashLink as Link } from 'react-router-hash-link';
 import '../styles/Contact.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faYoutube } from '@fortawesome/free-brands-svg-icons';
+// import { faChevronUp} from '@fortawesome/free-solid-svg-icons';
 
 function Contact() {
   return(
     <div id='contact'>
+
+    {/* <Link className='chevron-btn sticky' to='#home' smooth><FontAwesomeIcon icon={faChevronUp}/></Link> */}
 
       <div className='contact-me'>
 
