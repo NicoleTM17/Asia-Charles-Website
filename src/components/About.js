@@ -11,7 +11,7 @@ function About(){
       <div className='about-me'>
         <img className='flower-border' src='images/flower-border.png' alt='border'/>
         <div className='about-text'>
-          <h1 className='welcome-txt'><span style={{fontSize: '3.5em', color: '#var(--grass-green-color)'}}>W</span><span className='move-txt' style={{marginLeft: '-0.5em'}}>elcome, I'm Asia</span></h1>
+          <h1 className='welcome-txt'><span style={{fontSize: '3.5em', color: '#var(--grass-green-color)'}}>W</span><span className='move-txt' style={{marginLeft: '-0.5em', fontWeight: '300'}}>elcome, I'm Asia</span></h1>
           <p style={{textAlign: 'center', fontSize: '2em', color: 'var(--grass-green-color'}}>⋆｡°✩</p>
           <div className='welcome-content'>
             A passionate, creative, and playful human being here to guide you into being by coaching you on all things mindfulness, meditation, and emotional and mental well-being.
@@ -35,23 +35,26 @@ function About(){
             I coach YOU on how to master the art of giving yourself permission to...
             <br/><br/>
             <ul style={{lineHeight: '2', fontWeight: '200'}}>
-              <li>Embrace your experiences without assigning any meaning to them</li>
-              <li>Question unhelpful narratives that rule your life</li>
-              <li>Accept and give voice to your emotions so as to release them and reveal yet another layer of who you truly are. </li>
+              <li className='about-bullets'>Embrace your experiences without assigning any meaning to them</li>
+              <li className='about-bullets'>Question unhelpful narratives that rule your life</li>
+              <li className='about-bullets'>Accept and give voice to your emotions so as to release them and reveal yet another layer of who you truly are. </li>
             </ul>
 
           </div>
 
 
 
-          <Link to='#services' smooth style={{textDecoration: 'none'}}><div className='services-btn'>Check out my services</div></Link>
+          {/* <Link to='#services' smooth style={{textDecoration: 'none'}}><div className='services-btn'>Check out my services</div></Link> */}
+          <br/>
+          <div className='services-link'>Check out what I have to offer via my <Link to='#services' smooth style={{color: 'var(--grass-green-color', fontWeight: '500'}}>services</Link></div>
 
           {/* <img className='slogan-txt' src='images/slogan.png' alt='slogan'/> */}
         </div>
 
         <div className='about-collage'>
           <img className='about-page-img' src='images/asia-portrait.jpg' alt='about-img'/>
-          {/* <img className='about-page-img-two' src='images/asia-portrait-2.jpg' alt='about-img'/> */}
+          <img className='about-page-img-two' src='images/landscape-pic.jpg' alt='about-img'/>
+          {/* <img className='about-page-img-three' src='images/flower-pic.jpg' alt='about-img'/> */}
         </div>
 
       </div>

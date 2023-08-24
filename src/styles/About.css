@@ -33,12 +33,17 @@
   z-index: 1;
 }
 
-.slogan-txt{
+
+.about-bullets{
+  list-style-type: circle;
+}
+
+/* .slogan-txt{
   display: block;
   margin: 0 auto;
   margin-top: 10em;
   width: 75%;
-}
+} */
 
 /* .collage-one{
   width: 30em;
@@ -46,19 +51,31 @@
   margin-top: 3em;
 } */
 
+
 .about-page-img{
   max-width: 100%; /* Ensure the image is responsive */
   height: 50%;
   border: 5px solid var(--grass-green-color);
   margin-top: 5em; /* rEMOVE IF MULTIPLE PICS */
+  margin-left: 5em;
 }
 
 .about-page-img-two{
-  margin-top: 2em;
   max-width: 100%;
-  height: 50%;
+  max-height: 336px;
+  margin-top: 2em;
+  margin-left: 5em;
+  /* height: 20%; */
   border: 5px solid var(--grass-green-color);
 }
+
+/* .about-page-img-three{
+  max-width: 50%;
+  margin-top: 2em;
+  margin-left: 2em;
+  height: 20%;
+  border: 5px solid var(--grass-green-color);
+} */
 
 .flower-border{
   position: absolute;
@@ -68,7 +85,11 @@
   z-index: 0;
 }
 
-.services-btn{
+
+
+/* CHANGED from btn to link */
+
+/* .services-btn{
   width: 15%;
   border: 2px solid var(--grass-green-color);
   border-radius: 4px;
@@ -88,4 +109,12 @@
   background-color: #8c994a;
   color: var(--off-white-color);
   border: 2px solid #8c994a;
+} */
+
+.services-link{
+  /* text-align: center; */
+  color: var(--grass-green-color);
+  font-weight: 300;
+  font-size: 1.2em;
+  font-style: italic;
 }

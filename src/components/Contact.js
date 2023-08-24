@@ -19,18 +19,12 @@ function Contact() {
           <p style={{textAlign: 'center', fontSize: '2em'}}>‧₊˚❀༉‧₊˚.</p>
           <div className='enquiries'>
             <h2 className='business-enquiries'>Business enquiries:</h2>
-            <p className='email'>Email address</p>
-            <p className='phone'>Phone number</p>
+            <p className='email'>Email address: asi.charles00@gmail.com </p>
+            <p className='phone'>Phone number: +44 7593770083</p>
           </div>
 
-          <div className='socials'>
-            <h2 className='socials-header'>My socials:</h2>
-            <a href='https://instagram.com' target='_blank' rel="noreferrer"><span className='insta'><FontAwesomeIcon icon={faInstagram}/></span></a>
-            <a href='https://youtube.com' target='_blank' rel="noreferrer"><span className='yt'><FontAwesomeIcon icon={faYoutube}/></span></a>
-            {/* <p className='yt'>Youtube</p>
-            <p className='insta'>Instagram</p> */}
-            {/* <p className='super'>Superprof</p> */}
-          </div>
+            <a href='https://www.instagram.com/gypsysoulsnippet/' target='_blank' rel="noreferrer"><span className='insta'><FontAwesomeIcon icon={faInstagram}/></span></a>
+            <div className='youtube'><a href='https://www.youtube.com/@justlovemeditations' target='_blank' rel="noreferrer"><span className='yt'><FontAwesomeIcon icon={faYoutube}/></span></a><span style={{fontStyle: 'italic'}}>Subscribe to my channel/Listen to my guided meditations</span></div>
 
         </div>
 
