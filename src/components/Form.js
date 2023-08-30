@@ -14,7 +14,7 @@ function Form(){
   const sendEmail = (event) => {
     event.preventDefault();
 
-    // emailjs.sendForm('service_sr2w8xn', 'template_urtaepo', form.current, '-THRAOnbNB9mtEi9u')
+    // emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
     //  .then((result) => {
     //      // show the user a success message
     //      console.log(result.text);
