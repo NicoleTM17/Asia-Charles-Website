@@ -9,7 +9,7 @@ import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 
-import NavbarElements from './components/Navbar.js';
+import Navbar from './components/Navbar.js';
 import Banner from './components/Banner.js';
 import About from './components/About.js';
 import Services from './components/Services.js';
@@ -26,7 +26,7 @@ library.add(faYoutube);
 function App() {
   return (
     <div className="wrapper">
-      <NavbarElements/>
+      <Navbar/>
       <Banner/>
       <About/>
       <Services/>
