@@ -1,48 +1,52 @@
-// import { HashLink as Link } from 'react-router-hash-link';
-import Nav from 'react-bootstrap/Nav';
-import Navbar  from 'react-bootstrap/Navbar';
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import { useState } from 'react';
+import { HashLink as Link } from 'react-router-hash-link';
+
 
 import '../styles/Navbar.css';
 
 
-function NavbarElements(){
+function Navbar(){
 
-  const [expanded, setExpanded] = useState(false);
+  const [isActive, setIsActive] = useState(false);
 
-  const handleToggle = () => {
-    setExpanded(!expanded);
+
+  function toggleNavLinks() {
+    setIsActive(!isActive);
   }
 
-  // const screenSize = window.innerWidth;
+
 
   return(
-    <div id='home' className='nav-bar'>
-      <Navbar expand="md" expanded={expanded} onToggle={handleToggle}>
-        <Navbar.Brand href="#home">
-          <img
-            src="images/logo.png"
-            className="d-inline-block align-top logo"
-            alt="logo"
-          />
-        </Navbar.Brand>
+    <div id='home' className='navbar'>
 
-        <div className='ml-auto'>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
-        </div>
+      <img src='images/logo.png' className='brand-logo' alt='logo'/>
 
-        <Navbar.Collapse id="responsive-navbar-nav" className='justify-content-end'>
-          <Nav className='links ml-auto'>
-            <Nav.Link className='link' style={{textDecoration: 'underline', textUnderlineOffset: 3}} href="#home">Home</Nav.Link>
-            <Nav.Link className='link' href="#about">About</Nav.Link>
-            <Nav.Link className='link' href="#services">Services</Nav.Link>
-            <Nav.Link className='link' href="#reviews">Reviews</Nav.Link>
-            <Nav.Link className='link' href="#contact">Contact</Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-      </Navbar>
+      <a href='#' className={`toggle-button ${isActive ? 'active' : ''}`} onClick={toggleNavLinks}>
+        {isActive ? (
+          <span className='exit'>✘</span>
+        ) : (
+          <>
+            <span className='bar'></span>
+            <span className='bar'></span>
+            <span className='bar'></span>
+          </>
+          )}
+      </a>
+
+
+      <div className={`navbar-links ${isActive ? 'active' : ''}`}>
+        <ul>
+          <Link to='#home' smooth style={{textDecoration: 'none'}} ><li><a href='#'>Home</a></li></Link>
+          <Link to='#about' smooth style={{textDecoration: 'none'}}><li><a href='#'>About</a></li></Link>
+          <Link to='#services' smooth style={{textDecoration: 'none'}}><li><a href='#'>Services</a></li></Link>
+          <Link to='#reviews' smooth style={{textDecoration: 'none'}}><li><a href='#'>Reviews</a></li></Link>
+          <Link to='#contact' smooth style={{textDecoration: 'none'}}><li><a className='longer' href='#'>Contact</a></li></Link>
+        </ul>
+      </div>
+
     </div>
   );
-}
+};
 
-export default NavbarElements;
+export default Navbar;

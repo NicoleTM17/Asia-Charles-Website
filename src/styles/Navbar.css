@@ -1,51 +1,124 @@
 
-.nav-bar {
-  /* background-color: #D6E8DB; */
-  /* background-color: #EBEAE9; */
-  background-color: var(--nav-color);
-  padding: 1em;
-  width: 100%;
+* { /* Boilerplate styling to make it easier */
+  box-sizing: border-box;
 }
 
-.logo {
-  width: 25%;
+body{ /* Added so that everything in the nav is budged up to the top of the screen */
+  margin: 0;
+  padding: 0;
 }
 
-.link {
-  margin-left: 2em;
-  color: var(--off-white-color);
-  font-weight: 300;
-  font-size: 1em;
-  padding: 0.5em 1em;
+
+/* NAVBAR */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #85a8b7;
+  color: #e9f0ec;
+}
+
+.brand-logo {
+  width: 10%;
+  margin: .5rem;
+}
+
+.navbar-links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-links li{
+  list-style: none;
+  padding: 1.8rem;
+}
+
+.navbar-links li a{
   text-decoration: none;
-  border-radius: 3px;
-  cursor: pointer;
-  transition: 200ms ease-in-out;
+  color: #e9f0ec;
+  display: block;
 }
 
-.link:hover {
+.navbar-links li .longer{
+  margin-right: 0.5em;
+}
+
+.navbar-links li:hover{
   background-color: #70919f;
-  color: var(--off-white-color);
+  border-radius: 5px;
 }
 
-.navbar-nav .nav-link.active{
-  color: var(--off-white-color);
+
+/* HAMBURGER MENU */
+
+.toggle-button{
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+  cursor: pointer;
 }
 
-.space {
-  margin-right: 1.5em;
+.bar{
+  height: 3px;
+  width: 100%;
+  background-color: #e9f0ec;
+  border-radius: 10px;
 }
 
-.navbar-toggler{
-  position: fixed;
-  top: 2em;
-  right: 1em;
-}
+@media(max-width: 540px){
 
-.navbar-toggler-icon{
-  font-size: 1rem;
-}
+  .toggle-button{
+    display: flex;
+  }
 
-.navbar-toggler:focus{
-  border: 2px solid rgba(255, 255, 255, 0.2);
+  .exit{
+    position: absolute;
+    /* top: .75rem; */
+    /* right: 1rem; */
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    font-size: 2em;
+    cursor: pointer;
+    color: var(--off-white-color);
+  }
+
+  .navbar-links{
+    display:none;
+    width: 100%;
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  .navbar{
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar-links ul{
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .navbar-links li{
+    text-align: center;
+    padding: 1rem;
+  }
+
+  .navbar-links li a {
+    padding: .5rem 1rem;
+  }
+
+  .navbar-links.active {
+    display: flex;
+    opacity: 1;
+  }
+
 }
