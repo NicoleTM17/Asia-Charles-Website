@@ -22,7 +22,6 @@ function Contact() {
           <div className='enquiries'>
             <h2 className='business-enquiries'>Business enquiries:</h2>
             <p className='email'>Email address: asi.charles00@gmail.com </p>
-            <p className='phone'>Phone number: +44 7593770083</p>
           </div>
 
             <a href='https://www.instagram.com/gypsysoulsnippet/' target='_blank' rel="noreferrer"><span className='insta'><FontAwesomeIcon icon={faInstagram}/></span></a>

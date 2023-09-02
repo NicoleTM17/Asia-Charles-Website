@@ -11,6 +11,7 @@ function About(){
       <div className='about-me'>
         <img className='flower-border' src='images/flower-border.png' alt='border'/>
         <div className='about-text'>
+          <h4 style={{fontSize: '2.5em', fontStyle: 'italic', color: 'var(--grass-green-color', fontWeight: '200', textAlign: 'center'}}>The light of your awareness heals</h4>
           <h1 className='welcome-txt'><span style={{fontSize: '3.5em', color: '#var(--grass-green-color)'}}>W</span><span className='move-txt' style={{marginLeft: '-0.5em', fontWeight: '300'}}>elcome, I'm Asia</span></h1>
           <p style={{textAlign: 'center', fontSize: '2em', color: 'var(--grass-green-color'}}>⋆｡°✩</p>
           <div className='welcome-content'>
@@ -26,7 +27,6 @@ function About(){
             <br/><br/>
             My dedication to the 8-week course led me to a significant transformation and my initial curiosity to connect to myself and others more deeply turned into a passion.
             <br/><br/>
-            <h4 style={{fontSize: '1.5em', fontStyle: 'italic', color: 'var(--grass-green-color', fontWeight: '200', textAlign: 'center'}}>The light of your awareness heals</h4>
             <br/>
             By learning to welcome my experiences with more openness and less judgment, I became more courageous and better able to navigate the waves of emotions and grief flooding into my life frequently at the time.
             <br/>
@@ -46,14 +46,14 @@ function About(){
 
           {/* <Link to='#services' smooth style={{textDecoration: 'none'}}><div className='services-btn'>Check out my services</div></Link> */}
           <br/>
-          <div className='services-link'>Check out what I have to offer via my <Link to='#services' smooth style={{color: 'var(--grass-green-color', fontWeight: '500'}}>services</Link></div>
+          <div className='services-link'>Check out what I have to offer via my <Link to='#services' className='services-hover' smooth style={{color: 'var(--grass-green-color', fontWeight: '500'}}>services</Link></div>
 
           {/* <img className='slogan-txt' src='images/slogan.png' alt='slogan'/> */}
         </div>
 
         <div className='about-collage'>
-          <img className='about-page-img' src='images/asia-portrait.jpg' alt='about-img'/>
-          <img className='about-page-img-two' src='images/landscape-pic.jpg' alt='about-img'/>
+          <img className='about-page-img' src='images/portrait1.jpg' alt='about-img'/>
+          {/* <img className='about-page-img-two' src='images/portrait2.jpg' alt='about-img'/> */}
           {/* <img className='about-page-img-three' src='images/flower-pic.jpg' alt='about-img'/> */}
         </div>
 

@@ -11,6 +11,11 @@
 .about-me{
   display: flex;
   padding: 4em;
+  width: 135%;
+}
+
+.about-collage{
+  padding: 4em;
 }
 
 .welcome-txt{
@@ -35,7 +40,8 @@
 
 
 .about-bullets{
-  list-style-type: circle;
+  /* list-style-type: circle; */
+  list-style-type: '✧  ';
 }
 
 /* .slogan-txt{
@@ -56,18 +62,17 @@
   max-width: 100%; /* Ensure the image is responsive */
   height: 50%;
   border: 5px solid var(--grass-green-color);
-  margin-top: 5em; /* rEMOVE IF MULTIPLE PICS */
-  margin-left: 5em;
+  /* margin-left: 7em; */
 }
 
-.about-page-img-two{
+/* .about-page-img-two{
   max-width: 100%;
   max-height: 336px;
   margin-top: 2em;
   margin-left: 5em;
-  /* height: 20%; */
+  height: 20%;
   border: 5px solid var(--grass-green-color);
-}
+} */
 
 /* .about-page-img-three{
   max-width: 50%;
@@ -117,4 +122,8 @@
   font-weight: 300;
   font-size: 1.2em;
   font-style: italic;
+}
+
+.services-hover:hover{
+  color: #474e25;
 }
