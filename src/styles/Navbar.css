@@ -15,8 +15,8 @@ body{ /* Added so that everything in the nav is budged up to the top of the scre
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #85a8b7;
-  color: #e9f0ec;
+  background-color: var(--nav-color);
+  color: var(--off-white-color);
 }
 
 .brand-logo {

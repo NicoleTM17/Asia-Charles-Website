@@ -46,6 +46,11 @@
   .about-me{
     display: block;
     margin: 0 auto;
+    width: 100%;
+  }
+
+  .about-text{
+    padding: 0em;
   }
 
   .flower-border{
@@ -55,61 +60,52 @@
 
   .welcome-txt{
     font-size: 2em;
-    margin-top: -1em;
+    margin-top: 0em;
   }
 
   .welcome-content{
     text-align: center;
+    padding: 1em 0em;
   }
 
   .about-collage{
     display: block;
   }
 
-  .collage-one{
-    width: 20em;
+  .about-page-img{
+    max-width: 250px;
+    margin-left: -2em;
   }
 
-  .services-btn{
-    width: 30%;
-    padding: 3px;
+  .services-link{
+    font-size: 1.5em;
+    text-align: center;
   }
+
+
 
   /* SERVICES STYLING */
 
   #services{
-    padding: 3em 1em;
-    /* width: 100%; */
+    /* padding: 3em 1em; */
     height: 100%;
   }
 
-  .my-services-quote{
+  .services-details{
+    padding: 2em 2em;
+  }
+
+  .services-slogan{
     font-size: 1.5em;
   }
 
-  .services-wrapper{
+  .outcomes-list li{
+    width: 80%;
+    margin-bottom: 2em;
+  }
+
+  .outcomes-list{
     display: block;
-    margin: 2 auto;
-  }
-
-  .lesson-box{
-    width: 30%;
-    height: 100%;
-  }
-
-  .outcomes{
-    display: block;
-    margin-top: 2em;
-    padding: 1em 0.5em;
-    line-height: 1;
-  }
-
-  .outcome{
-    font-size: 0.8em;
-  }
-
-  .lesson-outcomes{
-    margin-top: 2em;
   }
 
   /* REVIEWS STYLING */
@@ -156,7 +152,7 @@
   .form-section{
     display: block;
     margin: 0em auto;
-    margin-left: -9em;
+    margin-left: -11em; /*CHANGE/FIX*/
   }
 
 

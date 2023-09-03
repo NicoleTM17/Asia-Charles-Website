@@ -1,9 +1,84 @@
+
 #services{
   width: 100%;
-  /* min-height: 800px; */
+  background-color: var(--nav-color)
+}
+
+.services-slogan{
+  font-size: 2.5em;
+  font-weight: 300;
+  text-align: center;
+  font-style: italic;
+}
+
+
+.services-details{
+  padding: 5em 10em;
+  background-color: var(--nav-color);
+  color: var(--licorice-color);
+  line-height: 2;
+}
+
+
+.aims-list li{
+  list-style: '→  ';
+}
+
+
+.how-it-works{
+  background-color:#6e9ca1;
+  width: 100%;
+  padding: 2em 2em;
+}
+
+.outcomes-list li{
+  list-style: none;
+  border: 1px solid black;
+  border-radius: 8px;
+  width: 15%;
+  padding: .5em .5em;
+  font-size: .8em;
+  font-weight: 300;
+  text-align: center;
+  display: flex;
+  align-items: center; /* display flex and align-items helps it sit in center */
+}
+
+.outcomes-list{
+  margin-top: 2em;
+  display: flex;
+  gap: 1em;
+}
+
+/* CONDITIONAL */
+
+.click-btn{
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.works-hidden{
+  display: none;
+}
+
+
+/* #BDB8B6 -services
+#9a9593 - how it works */
+
+
+
+
+
+
+
+
+/* OLD CODE */
+
+
+/* #services{
+  width: 100%;
   padding: 5em 10em;
   position: relative;
-  /* background: radial-gradient(circle at 10% 20%, rgb(215, 223, 252) 0%, rgb(255, 255, 255) 0%, rgb(215, 223, 252) 84%); */
   background-color: #CEDEBD;
 }
 
@@ -83,4 +158,4 @@
 .outcome{
   list-style-type: circle;
   font-weight: 300;
-}
+} */

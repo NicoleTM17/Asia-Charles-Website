@@ -17,7 +17,7 @@ function Contact() {
       <div className='contact-me'>
 
         <div className='contact-details'>
-          <h1 className='connect-header'>Connect with me!</h1>
+          <h1 className='connect-header'>Connect with me</h1>
           {/* <p style={{textAlign: 'center', fontSize: '2em'}}>‧₊˚❀༉‧₊˚.</p> */}
           <div className='enquiries'>
             <h2 className='business-enquiries'>Business enquiries:</h2>
