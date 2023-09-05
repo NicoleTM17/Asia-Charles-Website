@@ -59,9 +59,9 @@ function Home() {
   return (
     <>
       <Banner  />
-      <About  />
-      <Reviews  />
-      <Contact  />
+      <About id='about' />
+      <Reviews id='reviews'  />
+      <Contact id='contact'  />
     </>
   );
 }
