@@ -12,6 +12,8 @@
 
 
 .slogan{
+  font-family: var(--josefin);
+  font-style: italic;
   font-size: 3.8em;
   font-weight: 300;
 }

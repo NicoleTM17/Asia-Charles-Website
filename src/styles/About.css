@@ -22,17 +22,20 @@
   font-size: 3em;
   color: #ABBB5A;
   text-align: center;
+  font-family: var(--josefin);
 }
 
 .welcome-content{
   color: var(--licorice-black-color);
   font-weight: 300;
   padding-right: 2em;
+  font-family: var(--text-me);
+
 }
 
 
 .about-text{
-  padding: 5em 0em;
+  padding: 5.5em 0em;
   /* text-align: center; */
   /* border: 1px solid red; */
   z-index: 1;
@@ -82,7 +85,7 @@
   border: 5px solid var(--grass-green-color);
 } */
 
-.flower-border{
+.flower-border-top{
   position: absolute;
   top: 0;
   left: 0;
@@ -90,38 +93,23 @@
   z-index: 0;
 }
 
-
-
-/* CHANGED from btn to link */
-
-/* .services-btn{
-  width: 15%;
-  border: 2px solid var(--grass-green-color);
-  border-radius: 4px;
-  font-size: 0.75em;
-  font-weight: 500;
-  text-align: center;
-  display: block;
-  margin-top: 2em !important;
-  margin: 0 auto;
-  background-color: var(--grass-green-color);
-  color: var(--off-white-color);
-  cursor: pointer;
-  transition: 200ms ease-in-out;
+.flower-border-bottom{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 23em;
+  z-index: 0;
 }
 
-.services-btn:hover{
-  background-color: #8c994a;
-  color: var(--off-white-color);
-  border: 2px solid #8c994a;
-} */
+
 
 .services-link{
   /* text-align: center; */
   color: var(--grass-green-color);
-  font-weight: 300;
+  font-weight: 400;
   font-size: 1.2em;
   font-style: italic;
+  font-family: var(--text-me);
 }
 
 .services-hover:hover{

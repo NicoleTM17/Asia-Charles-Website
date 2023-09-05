@@ -2,12 +2,14 @@
 /* DEFINING COLOURS */
 
 :root {
-  --nav-color: #85a8b7; /* navbar colour */
+  --nav-color: #5B94C7; /* navbar colour */
   --off-white-color: #EAE9EB; /* off-white colour */
   --licorice-black-color: #0D040F; /* black colour */
   --platinum-color: #EBEAE9; /* beige background colour */
   --grass-green-color: #ABBB5A; /* green colour */
   --yellow-color: #F1F3B4; /* yellow colour */
+  --josefin : 'Josefin Sans', sans-serif; /* for banner and headers */
+  --text-me : 'Text Me One', sans-serif; /* for paragraphs */
 }
 
 /* #ABBB5A green */

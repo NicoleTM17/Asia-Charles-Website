@@ -7,6 +7,7 @@
   /* background-color: rgba(0, 0, 0, 0.8); */
   background-color: #5f7d89;
   color: var(--off-white-color);
+  font-family: var(--text-me);
 }
 
 .contact-me{
@@ -15,6 +16,7 @@
 
 .connect-header{
   font-size: 4.5em;
+  font-family: var(--josefin);
   /* margin-bottom: 0.5em; */
 }
 

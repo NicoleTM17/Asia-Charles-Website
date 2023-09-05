@@ -1,7 +1,7 @@
 
 #services{
   width: 100%;
-  background-color: var(--nav-color)
+  background-color: #85a8b7;
 }
 
 .services-slogan{
@@ -9,14 +9,23 @@
   font-weight: 300;
   text-align: center;
   font-style: italic;
+  font-family: var(--josefin);
 }
 
+.services-header{
+  font-family: var(--josefin);
+}
+
+.services-subheader{
+  font-family: var(--josefin);
+}
 
 .services-details{
   padding: 5em 10em;
-  background-color: var(--nav-color);
+  background-color: #85a8b7;
   color: var(--licorice-color);
   line-height: 2;
+  font-family: var(--text-me);
 }
 
 
@@ -29,6 +38,7 @@
   background-color:#6e9ca1;
   width: 100%;
   padding: 2em 2em;
+  font-family: var(--text-me);
 }
 
 .outcomes-list li{

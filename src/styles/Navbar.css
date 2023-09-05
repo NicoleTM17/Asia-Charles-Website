@@ -17,6 +17,7 @@ body{ /* Added so that everything in the nav is budged up to the top of the scre
   align-items: center;
   background-color: var(--nav-color);
   color: var(--off-white-color);
+  font-family: var(--text-me);
 }
 
 .brand-logo {
@@ -33,6 +34,7 @@ body{ /* Added so that everything in the nav is budged up to the top of the scre
 .navbar-links li{
   list-style: none;
   padding: 1.8rem;
+  font-size: 1.2em;
 }
 
 .navbar-links li a{
@@ -46,7 +48,7 @@ body{ /* Added so that everything in the nav is budged up to the top of the scre
 } */
 
 .navbar-links li:hover{
-  background-color: #70919f;
+  background-color: rgba(75, 131, 181, 0.847);
   border-radius: 5px;
 }
 
