@@ -74,6 +74,10 @@ body{ /* Added so that everything in the nav is budged up to the top of the scre
   border-radius: 10px;
 }
 
+.active-link:focus{
+  font-weight: bolder;
+}
+
 @media(max-width: 540px){
 
   .toggle-button{

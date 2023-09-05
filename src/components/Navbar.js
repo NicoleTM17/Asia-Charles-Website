@@ -38,11 +38,11 @@ function Navbar(){
       <div className={`navbar-links ${isActive ? 'active' : ''}`}>
 
         <ul>
-          <li><Link to="/" style={{ textDecoration: 'none' }}>Home</Link></li>
+          <li><Link to="/" className='active-link' style={{ textDecoration: 'none' }}>Home</Link></li>
 
           <li><ScrollLink to="about" spy={true} smooth={true} duration={500} style={{ textDecoration: 'none', cursor: 'pointer' }}>About</ScrollLink></li>
 
-          <li><Link to="/services" style={{ textDecoration: 'none' }}>Services</Link></li>
+          <li><Link to="/services" className='active-link' style={{ textDecoration: 'none' }}>Services</Link></li>
 
           <li><ScrollLink to="reviews" spy={true} smooth={true} duration={500} style={{ textDecoration: 'none', cursor: 'pointer' }}>Reviews</ScrollLink></li>
 

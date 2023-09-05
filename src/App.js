@@ -36,6 +36,7 @@ WebFont.load({
     'Josefin+Sans:ital,wght@0,300;0,600;1,300;1,500',
     'Quicksand:wght@300;600',
     'Text+Me+One',
+    'Asap:wght@300',
   ]
   }
   });

@@ -10,7 +10,15 @@
   text-align: center;
   font-style: italic;
   font-family: var(--josefin);
+  animation: fade-in ease-in 1s;
 }
+
+@keyframes fade-in{
+
+  from{opacity: 0;}
+  to{opacity: 1;}
+}
+
 
 .services-header{
   font-family: var(--josefin);
@@ -22,10 +30,10 @@
 
 .services-details{
   padding: 5em 10em;
-  background-color: #e6e9e1;
+  background-color: #EEEEEE;
   color: #85a8b7;
   line-height: 2;
-  font-family: var(--text-me);
+  font-family: 'Asap', sans-serif;
   border-bottom: 3px solid #85a8b7;
 }
 
