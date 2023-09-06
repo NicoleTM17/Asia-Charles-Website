@@ -37,6 +37,7 @@ WebFont.load({
     'Quicksand:wght@300;600',
     'Text+Me+One',
     'Asap:wght@300',
+    'Ubuntu:wght@300;400&display=swap',
   ]
   }
   });

@@ -54,7 +54,7 @@ function Form(){
 
       <textarea onChange={handleChange} name="message" placeholder='Enter a message...*' maxLength='180' cols="30" rows="7" required style={{width: '91%', marginBottom: '2em'}}></textarea>
       <p className={counter >= 180 ? 'max-chars' : ''} style={{fontSize: '.7em', fontStyle: 'italic', opacity: '0.7', textAlign: 'start', color: 'var(--licorice-black-color', marginTop: '-2.5em'}}>Do not exceed 180 characters <strong>({counter})</strong></p>
-      <input type="submit" className="submit-btn" value='submit' style={{width: '40%'}} />
+      <input type="submit" className="submit-btn" value='Submit' style={{width: '40%'}} />
     </form>
 
   );

@@ -27,9 +27,9 @@
 
 .welcome-content{
   color: var(--licorice-black-color);
-  font-weight: 300;
+  font-family: var(--ubuntu);
+  font-weight: 200;
   padding-right: 2em;
-  font-family: var(--text-me);
 
 }
 
@@ -109,7 +109,7 @@
   font-weight: 400;
   font-size: 1.2em;
   font-style: italic;
-  font-family: var(--text-me);
+  font-family: var(--ubuntu);
 }
 
 .services-hover:hover{

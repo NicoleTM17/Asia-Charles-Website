@@ -22,7 +22,7 @@ function About(){
             <br/> <br/>
             Having taught in both clinical and non-clinical settings, and having co-run several certified 8-week courses and compassion-focused therapy groups, I have developed my own teaching methods and techniques, which are greatly enriched and supported by my psychological and psychotherapeutic knowledge.
             <br/> <br/>
-            <h2 style={{fontSize: '2em', fontStyle: 'italic', color: 'var(--grass-green-color', fontWeight: '200'}}>My Journey</h2>
+            <h2 style={{fontSize: '2em', fontStyle: 'italic', color: 'var(--grass-green-color', fontWeight: '200', fontFamily: 'Text Me One, sans-serif'}}>My Journey</h2>
             <br/>
             I was introduced to the practice of meditation, specifically mindfulness-based meditation, during my undergraduate studies where I attended a certified group-based 8-week MBCT and MBSR course and, soon after, began co-running mindfulness sessions for students throughout the pandemic.
             <br/><br/>

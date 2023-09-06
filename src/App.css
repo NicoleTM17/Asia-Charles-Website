@@ -9,7 +9,8 @@
   --grass-green-color: #ABBB5A; /* green colour */
   --yellow-color: #F1F3B4; /* yellow colour */
   --josefin : 'Josefin Sans', sans-serif; /* for banner and headers */
-  --text-me : 'Text Me One', sans-serif; /* for paragraphs */
+  --text-me : 'Text Me One', sans-serif; /* for paragraphs NOT USING */
+  --ubuntu : 'Ubuntu', sans-serif; /* for paragraphs */
 }
 
 /* #ABBB5A green */
