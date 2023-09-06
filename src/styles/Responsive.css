@@ -114,20 +114,13 @@
 
   /* REVIEWS STYLING */
 
-  #reviews{
-    height: 100%;
+  #reviews {
+    padding: 5em 1em; /* Adjust padding for small screens */
   }
 
   .my-reviews{
     display: block;
-    margin: 0 auto;
-    margin-left: -5em;
   }
-
-  /* .review-section{
-    margin-top: 4em;
-    width: 400px;
-  } */
 
   /* CONTACT STYLING */
 
@@ -135,30 +128,31 @@
     height: 100%;
   }
 
-  .contact-me{
-    display: inline-block;
-  }
-
-  .connect-header{
-    font-size: 3em;
-    text-align: center;
-    margin-bottom: 1em;
-  }
-
-  .enquiries{
-    text-align: center;
-  }
-
-  .insta{
-    text-align: center;
-  }
-
-  .form-section{
+  .contact-wrapper{
     display: block;
-    margin: 0em auto;
-    margin-left: -11em; /*CHANGE/FIX*/
+    flex-direction: column; /* Change to column to stack elements vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center;
   }
 
+  .contact-details{
+    display: block;
+    margin-bottom: 3em;
+  }
 
+  .discussion-list{
+    text-align: start;
+    margin-left: 2em;
+  }
+
+  .contact-form-section{
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  .submit-btn{
+    width: 91% !important;
+  }
 
 }

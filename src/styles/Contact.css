@@ -2,7 +2,8 @@
 #contact{
   width: 100%;
   height: auto;
-  background-color: #e6f0ee;
+  /* background-color: #e3edef; */
+  background-color: var(--off-white-color);
   color: var(--nav-color);
   padding: 3em 3em;
   font-family: 'Asap', sans-serif;
@@ -31,7 +32,7 @@
 }
 
 
-.contact-form{
+.contact-form-section{
   padding-left: 4em;
 }
 

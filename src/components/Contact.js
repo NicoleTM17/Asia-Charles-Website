@@ -34,7 +34,7 @@ function Contact() {
 
 
 
-    <div className='contact-form'>
+    <div className='contact-form-section'>
       <Form/>
 
     </div>
