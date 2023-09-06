@@ -13,7 +13,7 @@ function Reviews(){
 
 
   return(
-    <div id='reviews' style={{backgroundImage: 'linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)), url(https://images.unsplash.com/photo-1604251405903-b8c4e83cdf7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1188&q=80)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}}>
+    <div id='reviews' style={{backgroundImage: 'linear-gradient(rgba(255,255,255,0.4),rgba(255,255,255,0.4)), url(https://images.unsplash.com/photo-1617957743103-310accdfb999?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat'}}>
 
       <div className='my-reviews'>
         {reviews.map((review, index) => (
@@ -30,3 +30,13 @@ function Reviews(){
 }
 
 export default Reviews;
+
+
+
+
+// TESTS
+// https://images.unsplash.com/photo-1538947151057-dfe933d688d1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80
+// https://images.unsplash.com/photo-1617957743103-310accdfb999?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80
+
+// ORIGINAL
+// linear-gradient(rgba(255,255,255,0.3),rgba(255,255,255,0.3)), url(https://images.unsplash.com/photo-1604251405903-b8c4e83cdf7c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1188&q=80

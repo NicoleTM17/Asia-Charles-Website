@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { useRef } from 'react';
+// import { useRef } from 'react';
 // import emailjs from '@emailjs/browser';
 // import Swal from 'sweetalert2';
 
@@ -9,10 +9,10 @@ function Form(){
 
   const [counter, setCounter] = useState(0);
 
-  const form = useRef();
+  // const form = useRef();
 
-  const sendEmail = (event) => {
-    event.preventDefault();
+  // const sendEmail = (event) => {
+    // event.preventDefault();
 
     // emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
     //  .then((result) => {
@@ -32,34 +32,30 @@ function Form(){
     //      console.log(error.text);
     //  });
     //  event.target.reset();
-  };
+  // };
 
   function handleChange(event){
-    // console.log(event.target.value.length);
+    console.log(event.target.value.length);
     const counterLength = event.target.value.length;
     setCounter(counterLength);
   }
 
   return(
-    <div className='form-wrapper'>
-      <h1 style={{marginBottom: '0.7em', fontStyle: 'italic'}}>Get in touch!</h1>
-      <form ref={form} onSubmit={sendEmail} autoComplete="on">
+    <form id='contact-form'>
 
-        <span>
-          <input type='text' name='first_name' placeholder='First Name*' required style={{width: '40%', marginBottom: '2em', padding: '5px 5px', borderRadius: '5px'}}/>
-          <input type='text' name='last_name' placeholder='Last Name*' required style={{width: '40%', marginBottom: '2em', marginLeft: '1em', padding: '5px 5px', borderRadius: '5px'}}/>
-        </span>
+      <span>
+        <input type="text" name='first_name' placeholder='First name*' required style={{width: '45%', marginBottom: '2em'}} />
+        <input type="text" name='last_name' placeholder='Last name' style={{width: '45%', marginLeft: '.5em'}} />
+      </span>
 
-        <span>
-          <input type='email' name='user_email' placeholder='Email address*' required style={{width: '40%', marginBottom: '2em', padding: '5px 5px', borderRadius: '5px'}}/>
-          <input type='text' name='subject' placeholder='Subject' style={{width: '40%', marginBottom: '2em', marginLeft: '1em', padding: '5px 5px', borderRadius: '5px'}}/>
-        </span>
+      <input type="email" name='user_email' placeholder='Email address*' required style={{width: '91%', marginBottom: '2em'}} />
 
-        <textarea onChange={handleChange} name='message' placeholder='Enter a message...*' maxLength='180' required rows="7" cols="30" style={{width: '85%', borderRadius: '5px'}} ></textarea>
-        <p className={counter >= 180 ? 'max-chars' : ''} style={{fontSize: '.7em', fontStyle: 'italic', opacity: '0.7', textAlign: 'start', marginLeft: '4em', marginTop: '-0.2em'}}>Do not exceed 180 characters <strong>({counter})</strong></p>
-        <input className='submit-btn' type='submit' value='submit' style={{width: '40%', padding: '0.5em 0.5em', marginTop: '2em', marginBottom: '2em', borderRadius: '5px'}}/>
-      </form>
-    </div>
+      <input type="text" name='subject' placeholder='Subject*' required style={{width: '91%', marginBottom: '2em'}} />
+
+      <textarea onChange={handleChange} name="message" placeholder='Enter a message...*' maxLength='180' cols="30" rows="7" required style={{width: '91%', marginBottom: '2em'}}></textarea>
+      <p className={counter >= 180 ? 'max-chars' : ''} style={{fontSize: '.7em', fontStyle: 'italic', opacity: '0.7', textAlign: 'start', color: 'var(--licorice-black-color', marginTop: '-2.5em'}}>Do not exceed 180 characters <strong>({counter})</strong></p>
+      <input type="submit" className="submit-btn" value='submit' style={{width: '40%'}} />
+    </form>
 
   );
 }
