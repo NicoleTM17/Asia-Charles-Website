@@ -2,68 +2,38 @@
 #contact{
   width: 100%;
   height: auto;
-  padding: 3em;
-  /* overflow-x: hidden; */
-  /* background-color: rgba(0, 0, 0, 0.8); */
-  background-color: #5f7d89;
-  color: var(--off-white-color);
-  font-family: var(--text-me);
+  background-color: #e6f0ee;
+  color: var(--nav-color);
+  padding: 3em 3em;
+  font-family: 'Asap', sans-serif;
 }
 
-.contact-me{
-  display: flex;
+.contact-details{
+  line-height: 2em;
 }
 
-.connect-header{
-  font-size: 4.5em;
-  font-family: var(--josefin);
-  /* margin-bottom: 0.5em; */
+.contact-header{
+  font-size: 3em;
 }
 
-.enquiries{
-  margin-top: 3em;
-  margin-bottom: 1em;
-}
-
-.insta{
-  font-size: 2em;
-  border: 1px solid black;
-  background-color: black;
-  border-radius: 50%;
-  padding: 5px 9px;
-  color: var(--off-white-color);
-  cursor: pointer;
-  transition: 200ms ease-in-out;
-}
-
-.insta:hover{
-  opacity: 0.8;
+.discussion-list li{
+  list-style-type: '✧  ';
+  font-size: small;
 }
 
 .youtube{
-  margin-top: 1em;
-}
-
-.yt{
-  /* margin-left: 2em; */
-  font-size: 2em;
-  border: 1px solid black;
-  background-color: black;
-  border-radius: 50%;
-  padding: 5px 6px;
-  color: var(--off-white-color);
-  cursor: pointer;
-  transition: 200ms ease-in-out;
-  margin-right: 0.5em;
-}
-
-.yt:hover{
-  opacity: 0.8;
+  font-size: 1.5em;
 }
 
 
+.contact-wrapper{
+  display: flex;
+}
 
 
+.contact-form{
+  padding-left: 4em;
+}
 
 
 
