@@ -1,7 +1,7 @@
 
 #services{
   width: 100%;
-  background-color: var(--nav-color)
+  /* background-color: #85a8b7; */
 }
 
 .services-slogan{
@@ -9,14 +9,33 @@
   font-weight: 300;
   text-align: center;
   font-style: italic;
+  font-family: var(--josefin);
+  animation: fade-in ease-in 1s;
+}
+
+@keyframes fade-in{
+
+  from{opacity: 0;}
+  to{opacity: 1;}
 }
 
 
+.services-header{
+  font-family: var(--josefin);
+}
+
+.services-subheader{
+  font-family: var(--josefin);
+}
+
 .services-details{
+  position: relative;
   padding: 5em 10em;
-  background-color: var(--nav-color);
-  color: var(--licorice-color);
+  background-color: #EEEEEE;
+  color: #85a8b7;
   line-height: 2;
+  font-family: 'Asap', sans-serif;
+  border-bottom: 3px solid #85a8b7;
 }
 
 
@@ -26,9 +45,10 @@
 
 
 .how-it-works{
-  background-color:#6e9ca1;
+  background-color:#85a8b7;
   width: 100%;
   padding: 2em 2em;
+  font-family: var(--text-me);
 }
 
 .outcomes-list li{
@@ -50,6 +70,20 @@
   gap: 1em;
 }
 
+.back-btn{
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  opacity: 0.5;
+  font-weight: bold;
+  color: var(--licorice-black-color);
+  transition: 200ms ease-in-out;
+}
+
+.back-btn:hover{
+  opacity: 1;
+}
+
 /* CONDITIONAL */
 
 .click-btn{
@@ -64,98 +98,3 @@
 
 /* #BDB8B6 -services
 #9a9593 - how it works */
-
-
-
-
-
-
-
-
-/* OLD CODE */
-
-
-/* #services{
-  width: 100%;
-  padding: 5em 10em;
-  position: relative;
-  background-color: #CEDEBD;
-}
-
-.my-services-quote{
-  text-align: center;
-  font-size: 3em;
-  color: var(--licorice-black-color);
-}
-
-.my-services-text{
-  text-align: center;
-  font-size: 1em;
-  font-weight: 300;
-  color: var(--licorice-black-color);
-}
-
-.services-wrapper{
-  display: flex;
-  margin-top: 3em;
-  color: var(--licorice-black-color);
-}
-
-.lesson-plan{
-  text-align: center;
-}
-
-.lesson-plan-boxes-one{
-  display: flex;
-  margin-right: 1em;
-  margin-top: 2em;
-}
-
-.lesson-box{
-  position: relative;
-  border: 3px solid var(--grass-green-color);
-  border-radius: 5px;
-  width: 150px;
-  height: 150px;
-  padding: 1.5em 1em;
-  text-align: center;
-  background-color: rgba(255, 255, 255, 0.9);
-  margin-left: 1em;
-}
-
-.lesson-plan-boxes-two{
-  display: flex;
-  margin-right: 1em;
-  margin-top: 2em;
-}
-
-.number{
-  position: absolute;
-  top: 0;
-  left: 0.5em;
-  font-size: 1em;
-  font-weight: bold;
-}
-
-.outcomes{
-  padding-left: 7em;
-}
-
-.lesson-outcomes-header{
-  text-align: center;
-}
-
-.lesson-outcomes{
-  text-align: center;
-  background-color: rgba(255, 255, 255, 0.9);
-  border: 3px solid var(--grass-green-color);
-  border-radius: 5px;
-  padding: 2em 2em;
-  line-height: 2.7;
-  margin-top: 1.7em;
-}
-
-.outcome{
-  list-style-type: circle;
-  font-weight: 300;
-} */

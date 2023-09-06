@@ -1,7 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { useState } from 'react';
-import { HashLink as Link } from 'react-router-hash-link';
-
+// import { HashLink as Link } from 'react-router-hash-link';
+import { NavLink } from 'react-router-dom';
+import { Link as ScrollLink } from 'react-scroll';
 
 import '../styles/Navbar.css';
 
@@ -16,11 +17,10 @@ function Navbar(){
   }
 
 
-
   return(
     <div id='home' className='navbar'>
 
-      <img src='images/logo.png' className='brand-logo' alt='logo'/>
+      <NavLink to='/' className='brand-logo'><img src='images/logo.png' alt='logo'/></NavLink>
 
       <a href='#' className={`toggle-button ${isActive ? 'active' : ''}`} onClick={toggleNavLinks}>
         {isActive ? (
@@ -36,16 +36,22 @@ function Navbar(){
 
 
       <div className={`navbar-links ${isActive ? 'active' : ''}`}>
-      <ul>
-        <li><Link to='#home' smooth style={{ textDecoration: 'none' }}>Home</Link></li>
-        <li><Link to='#about' smooth style={{ textDecoration: 'none' }}>About</Link></li>
-        <li><Link to='#services' smooth style={{ textDecoration: 'none' }}>Services</Link></li>
-        <li><Link to='#reviews' smooth style={{ textDecoration: 'none' }}>Reviews</Link></li>
-        <li><Link to='#contact' smooth style={{ textDecoration: 'none' }}>Contact</Link></li>
-        <li style={{ marginRight: '0.5em' }}><a href='#' target='_blank'>CV</a></li>
-      </ul>
 
+        <ul>
+          <li><NavLink to="/" className={(navData) => (navData.isActive ? "navlink-bold" : 'none')}>Home</NavLink></li>
+
+          <li><ScrollLink to="about" spy={true} smooth='true' duration={500} style={{ textDecoration: 'none', cursor: 'pointer' }}>About</ScrollLink></li>
+
+          <li><NavLink to="/services" className={(navData) => (navData.isActive ? "navlink-bold" : 'none')}>Services</NavLink></li>
+
+          <li><ScrollLink to="reviews" spy={true} smooth='true' duration={500} style={{ textDecoration: 'none', cursor: 'pointer' }}>Reviews</ScrollLink></li>
+
+          <li><ScrollLink to="contact" spy={true} smooth='true' duration={500} style={{ textDecoration: 'none', cursor: 'pointer' }}>Contact</ScrollLink></li>
+
+          <li style={{ marginRight: '0.5em' }}><a href='#' target='_blank' rel="noopener noreferrer">CV</a></li>
+        </ul>
       </div>
+
 
     </div>
   );

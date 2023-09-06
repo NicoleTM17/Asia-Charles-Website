@@ -1,4 +1,5 @@
-import { HashLink as Link } from 'react-router-hash-link';
+// import { HashLink as Link } from 'react-router-hash-link';
+import { Link } from 'react-router-dom';
 import '../styles/About.css';
 
 
@@ -9,9 +10,9 @@ function About(){
     <div id='about'>
 
       <div className='about-me'>
-        <img className='flower-border' src='images/flower-border.png' alt='border'/>
+        <img className='flower-border-top' src='images/flower-border-top.png' alt='border'/>
         <div className='about-text'>
-          <h4 style={{fontSize: '2.5em', fontStyle: 'italic', color: 'var(--grass-green-color', fontWeight: '200', textAlign: 'center'}}>The light of your awareness heals</h4>
+          <h4 style={{fontSize: '2.5em', fontStyle: 'italic', color: 'var(--grass-green-color', fontWeight: '200', textAlign: 'center', fontFamily: 'Text Me One, sans-serif'}}>The light of your awareness heals</h4>
           <h1 className='welcome-txt'><span style={{fontSize: '3.5em', color: '#var(--grass-green-color)'}}>W</span><span className='move-txt' style={{marginLeft: '-0.5em', fontWeight: '300'}}>elcome, I'm Asia</span></h1>
           <p style={{textAlign: 'center', fontSize: '2em', color: 'var(--grass-green-color'}}>⋆｡°✩</p>
           <div className='welcome-content'>
@@ -46,7 +47,7 @@ function About(){
 
           {/* <Link to='#services' smooth style={{textDecoration: 'none'}}><div className='services-btn'>Check out my services</div></Link> */}
           <br/>
-          <div className='services-link'>Check out what I have to offer via my <Link to='#services' className='services-hover' smooth style={{color: 'var(--grass-green-color', fontWeight: '500'}}>services</Link></div>
+          <div className='services-link'>Check out what I have to offer via my <Link to='/services' className='services-hover' smooth='true' style={{color: 'var(--grass-green-color', fontWeight: '500'}}>services</Link></div>
 
           {/* <img className='slogan-txt' src='images/slogan.png' alt='slogan'/> */}
         </div>
@@ -57,6 +58,7 @@ function About(){
           {/* <img className='about-page-img-three' src='images/flower-pic.jpg' alt='about-img'/> */}
         </div>
 
+        <img className='flower-border-bottom' src='images/flower-border-bottom.png' alt='border'/>
       </div>
 
 

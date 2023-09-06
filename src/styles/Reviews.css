@@ -4,6 +4,7 @@
   /* overflow-x: hidden; */
   padding: 5em 5em;
   color: var(--licorice-black-color);
+  font-family: var(--text-me);
 }
 
 .my-reviews{

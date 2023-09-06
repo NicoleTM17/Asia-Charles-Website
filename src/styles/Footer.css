@@ -6,7 +6,7 @@
   width: 100%;
   /* overflow-x: hidden; */
   /* background-color: #EBEAE9; */
-  background-color: #85a8b7;
+  background-color: var(--nav-color);
   color: var(--off-white-color);
 }
 
