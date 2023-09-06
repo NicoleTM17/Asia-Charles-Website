@@ -1,4 +1,5 @@
-import { HashLink as Link } from 'react-router-hash-link';
+// import { HashLink as Link } from 'react-router-hash-link';
+import { Link } from 'react-router-dom';
 import '../styles/About.css';
 
 
@@ -46,7 +47,7 @@ function About(){
 
           {/* <Link to='#services' smooth style={{textDecoration: 'none'}}><div className='services-btn'>Check out my services</div></Link> */}
           <br/>
-          <div className='services-link'>Check out what I have to offer via my <Link to='#services' className='services-hover' smooth style={{color: 'var(--grass-green-color', fontWeight: '500'}}>services</Link></div>
+          <div className='services-link'>Check out what I have to offer via my <Link to='/services' className='services-hover' smooth='true' style={{color: 'var(--grass-green-color', fontWeight: '500'}}>services</Link></div>
 
           {/* <img className='slogan-txt' src='images/slogan.png' alt='slogan'/> */}
         </div>

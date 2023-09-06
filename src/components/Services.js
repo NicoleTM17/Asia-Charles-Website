@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/Services.css';
 
 // https://images.unsplash.com/photo-1607931042290-dcc5d8da1c7e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80
@@ -27,14 +28,16 @@ function Services() {
     setIsVisibleFour(!isVisibleFour);
   }
 
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scrolls to the top of the page
+  }, []);
 
   return(
     <div id='services'>
-
       {/* PERSONALISED GUIDED MEDITATIONS */}
 
       <div className='services-details'>
-
+        <Link to='/' className='back-btn' style={{textDecoration: 'none'}}><p>← Go back</p></Link>
         <h2 className='services-slogan'>I write the meditations keeping you in mind, using my knowledge, experience, intuition, and creativity.</h2>
 
         <br/><br/>

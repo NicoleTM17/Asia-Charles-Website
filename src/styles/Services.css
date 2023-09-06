@@ -29,6 +29,7 @@
 }
 
 .services-details{
+  position: relative;
   padding: 5em 10em;
   background-color: #EEEEEE;
   color: #85a8b7;
@@ -67,6 +68,20 @@
   margin-top: 2em;
   display: flex;
   gap: 1em;
+}
+
+.back-btn{
+  position: absolute;
+  top: 1em;
+  left: 1em;
+  opacity: 0.5;
+  font-weight: bold;
+  color: var(--licorice-black-color);
+  transition: 200ms ease-in-out;
+}
+
+.back-btn:hover{
+  opacity: 1;
 }
 
 /* CONDITIONAL */
