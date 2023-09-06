@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import {  useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Services.css';
 
@@ -7,26 +7,26 @@ import '../styles/Services.css';
 function Services() {
 
   // 4 toggles
-  const [isVisibleOne, setIsVisibleOne] = useState(false);
-  const [isVisibleTwo, setIsVisibleTwo] = useState(false);
-  const [isVisibleThree, setIsVisibleThree] = useState(false);
-  const [isVisibleFour, setIsVisibleFour] = useState(false);
+  // const [isVisibleOne, setIsVisibleOne] = useState(false);
+  // const [isVisibleTwo, setIsVisibleTwo] = useState(false);
+  // const [isVisibleThree, setIsVisibleThree] = useState(false);
+  // const [isVisibleFour, setIsVisibleFour] = useState(false);
 
-  function handleClickOne() {
-    setIsVisibleOne(!isVisibleOne);
-  }
+  // function handleClickOne() {
+  //   setIsVisibleOne(!isVisibleOne);
+  // }
 
-  function handleClickTwo() {
-    setIsVisibleTwo(!isVisibleTwo);
-  }
+  // function handleClickTwo() {
+  //   setIsVisibleTwo(!isVisibleTwo);
+  // }
 
-  function handleClickThree() {
-    setIsVisibleThree(!isVisibleThree);
-  }
+  // function handleClickThree() {
+  //   setIsVisibleThree(!isVisibleThree);
+  // }
 
-  function handleClickFour() {
-    setIsVisibleFour(!isVisibleFour);
-  }
+  // function handleClickFour() {
+  //   setIsVisibleFour(!isVisibleFour);
+  // }
 
   useEffect(() => {
     window.scrollTo(0, 0); // Scrolls to the top of the page
@@ -56,12 +56,11 @@ function Services() {
         <p>I combine mindfulness to foster an awareness of the present with relaxation techniques and guided imagery. I like to include a loving kindness prayer at the end to support your intention/s.
         You get to choose the length, background music (or not), and the format (audio or video). My voice will be recorded using a professional microphone.</p>
 
-        <div className='click-btn' onClick={handleClickOne}>Click here to see how it works</div>
+        {/* <div className='click-btn'>Click here to see how it works</div> */}
 
       </div>
 
-      <div className={isVisibleOne === true ? 'how-it-works' : 'works-hidden' }
-      style={{transition: isVisibleOne ? '3ms ease-in-out' : ''}}>
+      <div className='how-it-works'>
         <h2 className='services-subheader' style={{fontSize: '2em', fontStyle: 'italic', fontWeight: '200', marginBottom: '.5em'}}>How it works - Personalised guided meditations</h2>
         <p>Get in touch by email, and I will get back to you to schedule a free consultation. Following this, I will send you an invoice and ask you to make the full payment.</p>
         <p>During our consultation, I will listen to your current situation, needs, desires, and intentions in a non-judgmental, kind, and compassionate way, asking open-ended questions. The duration of the consultation may vary between 30 and 60 minutes.</p>
@@ -82,12 +81,11 @@ function Services() {
         <li>Provide you with guidance and a general understanding of how to practise mindfulness and meditate, if this is new to you</li>
         <li>Cater the session to your specific needs, desires, and intentions</li>
       </ul>
-      <div className='click-btn' onClick={handleClickTwo}>Click here to see how it works</div>
+      {/* <div className='click-btn'>Click here to see how it works</div> */}
 
     </div>
 
-      <div className={isVisibleTwo === true ? 'how-it-works' : 'works-hidden'}
-      style={{transition: isVisibleOne ? '3ms ease-in-out' : ''}}>
+      <div className='how-it-works'>
         <h2 className='services-subheader' style={{fontSize: '2em', fontStyle: 'italic', fontWeight: '200', marginBottom: '.5em'}}>How it works - Live guided meditations</h2>
         <p>The session will take place online.</p>
         <p>Once you have expressed your interest via email, I will get back to you to schedule a session or a series of sessions, depending on your individual needs.</p>
@@ -124,12 +122,11 @@ function Services() {
       <h2 className='services-subheader' style={{fontSize: '2em', fontStyle: 'italic', fontWeight: '200'}}>My approach</h2>
         <p>When working with groups, I tend to establish ground rules and allow the space to check in, check out, and ask questions. This is an inclusive, growth-oriented, kind, and compassionate space.</p>
         <p>I like to use metaphors, stories, games, poetry, and real-life applications to illustrate certain concepts.</p>
-        <div className='click-btn' onClick={handleClickThree}>Click here to see how it works</div>
+        {/* <div className='click-btn'>Click here to see how it works</div> */}
 
     </div>
 
-    <div className={isVisibleThree === true ? 'how-it-works' : 'works-hidden'}
-    style={{transition: isVisibleThree ? '3ms ease-in-out' : ''}}>
+    <div className='how-it-works'>
         <h2 className='services-subheader' style={{fontSize: '2em', fontStyle: 'italic', fontWeight: '200', marginBottom: '.5em'}}>How it works - Mindfulness and Well-being workshops</h2>
         <p>Contact me via email, and we will schedule a call to discuss your requisites, including the frequency, date/s, duration, mode of delivery, and content catered to the needs of the specific context in which you would like me to teach.</p>
         <p>Once we have agreed on this, I will send you an invoice and ask you to make the full payment.</p>
@@ -153,12 +150,11 @@ function Services() {
         <li>Ability to cultivate joy and peace daily</li>
         <li>Increased resilience in the face of life's difficulties</li>
       </ul>
-      <div className='click-btn' onClick={handleClickFour}>Click here to see how it works</div>
+      {/* <div className='click-btn'>Click here to see how it works</div> */}
 
     </div>
 
-    <div className={isVisibleFour === true ? 'how-it-works' : 'works-hidden'}
-    style={{transition: isVisibleFour ? '3ms ease-in-out' : ''}}>
+    <div className='how-it-works'>
         <h2 className='services-subheader' style={{fontSize: '2em', fontStyle: 'italic', fontWeight: '200', marginBottom: '.5em'}}>How it works - Mindfulness and Well-being sessions</h2>
         <p>If you are interested, contact me via email, and I will get back to you to schedule our first session together.</p>
         <p>During the first session, we will get to know each other, define your growth and learning outcomes, and establish the frequency and number of our sessions.</p>
