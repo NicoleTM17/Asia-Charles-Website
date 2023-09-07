@@ -28,17 +28,16 @@ function About(){
             <br/><br/>
             My dedication to the 8-week course led me to a significant transformation and my initial curiosity to connect to myself and others more deeply turned into a passion.
             <br/><br/>
-            <br/>
-            By learning to welcome my experiences with more openness and less judgment, I became more courageous and better able to navigate the waves of emotions and grief flooding into my life frequently at the time.
+            By learning to welcome my experiences with more openness and less judgement, I became more courageous and better able to navigate the waves of emotions and grief flooding into my life frequently at the time.
             <br/>
             Through my consistent and intentional mindfulness practice, I began to nurture a more genuine appreciation for life, taking in all of the small, yet golden opportunities to take in joy, and feeling more alive than ever before.<br/>
             <br/>
-            I coach YOU on how to master the art of giving yourself permission to...
+            I teach you how to master the art of being present, so that you may...
             <br/><br/>
             <ul style={{lineHeight: '2', fontWeight: '200'}}>
-              <li className='about-bullets'>Embrace your experiences without assigning any meaning to them</li>
-              <li className='about-bullets'>Question unhelpful narratives that rule your life</li>
-              <li className='about-bullets'>Accept and give voice to your emotions so as to release them and reveal yet another layer of who you truly are. </li>
+              <li className='about-bullets'>Embrace your experiences more openly without assigning any meaning to them and reduce suffering</li>
+              <li className='about-bullets'>Cultivate joy and inner peace</li>
+              <li className='about-bullets'>Develop a more authentic connection to yourself</li>
             </ul>
 
           </div>
@@ -54,8 +53,9 @@ function About(){
 
         <div className='about-collage'>
           <img className='about-page-img' src='images/portrait1.jpg' alt='about-img'/>
-          {/* <img className='about-page-img-two' src='images/portrait2.jpg' alt='about-img'/> */}
-          {/* <img className='about-page-img-three' src='images/flower-pic.jpg' alt='about-img'/> */}
+          <div className='about-collage-art'>
+
+          </div>
         </div>
 
         <img className='flower-border-bottom' src='images/flower-border-bottom.png' alt='border'/>

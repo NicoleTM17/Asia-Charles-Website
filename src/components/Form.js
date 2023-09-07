@@ -1,4 +1,3 @@
-import { useState } from "react";
 // import { useRef } from 'react';
 // import emailjs from '@emailjs/browser';
 // import Swal from 'sweetalert2';
@@ -7,7 +6,6 @@ import '../styles/Form.css';
 
 function Form(){
 
-  const [counter, setCounter] = useState(0);
 
   // const form = useRef();
 
@@ -34,11 +32,7 @@ function Form(){
     //  event.target.reset();
   // };
 
-  function handleChange(event){
-    console.log(event.target.value.length);
-    const counterLength = event.target.value.length;
-    setCounter(counterLength);
-  }
+
 
   return(
     <form id='contact-form'>
@@ -52,8 +46,7 @@ function Form(){
 
       <input type="text" name='subject' placeholder='Subject*' required style={{width: '91%', marginBottom: '2em'}} />
 
-      <textarea onChange={handleChange} name="message" placeholder='Enter a message...*' maxLength='180' cols="30" rows="7" required style={{width: '91%', marginBottom: '2em'}}></textarea>
-      <p className={counter >= 180 ? 'max-chars' : ''} style={{fontSize: '.7em', fontStyle: 'italic', opacity: '0.7', textAlign: 'start', color: 'var(--licorice-black-color', marginTop: '-2.5em'}}>Do not exceed 180 characters <strong>({counter})</strong></p>
+      <textarea name="message" placeholder='Enter a message...*' cols="30" rows="7" required style={{width: '91%', marginBottom: '1em'}}></textarea>
       <input type="submit" className="submit-btn" value='Submit' style={{width: '40%'}} />
     </form>
 

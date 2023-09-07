@@ -14,9 +14,6 @@
   width: 135%;
 }
 
-.about-collage{
-  padding: 4em;
-}
 
 .welcome-txt{
   font-size: 3em;
@@ -30,6 +27,7 @@
   font-family: var(--ubuntu);
   font-weight: 200;
   padding-right: 2em;
+  opacity: 0.8;
 
 }
 
@@ -47,19 +45,20 @@
   list-style-type: '✧  ';
 }
 
-/* .slogan-txt{
-  display: block;
-  margin: 0 auto;
-  margin-top: 10em;
-  width: 75%;
-} */
+.about-collage{
+  padding: 4em;
+}
 
-/* .collage-one{
-  width: 30em;
-  margin-right: -3em;
+.about-collage-art{
+  background-image: url(../../public/images/about-art4.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
   margin-top: 3em;
-} */
-
+  width: 50%;
+  height: 40%;
+  position: relative;
+}
 
 .about-page-img{
   max-width: 100%; /* Ensure the image is responsive */
@@ -67,6 +66,10 @@
   border: 5px solid var(--grass-green-color);
   /* margin-left: 7em; */
 }
+
+/* .about-page-art{
+  height: auto;
+} */
 
 /* .about-page-img-two{
   max-width: 100%;

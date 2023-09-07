@@ -48,7 +48,7 @@ function Navbar(){
 
           <li><ScrollLink to="contact" spy={true} smooth='true' duration={500} style={{ textDecoration: 'none', cursor: 'pointer' }}>Contact</ScrollLink></li>
 
-          <li style={{ marginRight: '0.5em' }}><a href='#' target='_blank' rel="noopener noreferrer">CV</a></li>
+          <li style={{ marginRight: '0.5em' }}><a href='https://drive.google.com/file/d/1RSFSbcX48HvCzbIEpaUu3df6lHdl5BHk/view?usp=drivesdk' target='_blank' rel="noopener noreferrer">CV</a></li>
         </ul>
       </div>
 

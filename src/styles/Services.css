@@ -31,12 +31,14 @@
 .services-details{
   position: relative;
   padding: 5em 10em;
-  background-color: #e6f0ee;
-  color: #85a8b7;
+  /* background-color: #e6f0ee; */
+  background: linear-gradient(109.6deg, rgb(204, 228, 247) 11.2%, rgb(237, 246, 250) 100.2%);
+  /* color: #85a8b7; */
+  color: #4796b7;
   line-height: 2;
   font-family: var(--ubuntu);
   font-weight: 200;
-  border-bottom: 3px solid #85a8b7;
+  /* border-bottom: 3px solid #85a8b7; */
 }
 
 
@@ -46,7 +48,8 @@
 
 
 .how-it-works{
-  background-color:#85a8b7;
+  /* background-color:#85a8b7; */
+  background-color: var(--nav-color);
   width: 100%;
   padding: 2em 2em;
   font-family: var(--ubuntu);
@@ -55,12 +58,13 @@
 
 .outcomes-list li{
   list-style: none;
-  border: 1px solid black;
+  background-color: var(--nav-color);
+  color: var(--off-white-color);
   border-radius: 8px;
   width: 15%;
   padding: .5em .5em;
   font-size: .8em;
-  font-weight: 300;
+  font-weight: 600;
   text-align: center;
   display: flex;
   align-items: center; /* display flex and align-items helps it sit in center */
@@ -72,11 +76,25 @@
   gap: 1em;
 }
 
+.disclaimer-section{
+  background-color: white;
+  width: 100%;
+  padding: 2em 2em;
+  font-family: var(--ubuntu);
+  font-weight: 200;
+  background: linear-gradient(109.6deg, rgb(204, 228, 247) 11.2%, rgb(237, 246, 250) 100.2%);
+}
+
+.disclaimer{
+  text-align: center;
+
+}
+
 .back-btn{
   position: absolute;
   top: 1em;
   left: 1em;
-  opacity: 0.5;
+  opacity: 0.8;
   font-weight: bold;
   color: var(--licorice-black-color);
   transition: 200ms ease-in-out;

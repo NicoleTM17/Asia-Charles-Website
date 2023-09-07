@@ -24,15 +24,16 @@ textarea:focus{
 }
 
 .submit-btn{
-  border: 2px solid var(--nav-color);
+  background-color: var(--nav-color);
+  color: var(--off-white-color);
+  border: 1px solid var(--nav-color);
   font-weight: bold;
   cursor: pointer;
   transition: 200ms ease-in-out;
 }
 
 .submit-btn:hover{
-  background-color: var(--nav-color);
-  color: var(--off-white-color);
+  opacity: 0.7;
 }
 
 /* CONDITIONAL  */

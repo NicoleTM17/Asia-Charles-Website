@@ -3,8 +3,8 @@
   width: 100%;
   height: auto;
   /* background-color: #e3edef; */
-  background-color: var(--off-white-color);
-  color: var(--nav-color);
+  background: linear-gradient(109.6deg, rgb(204, 228, 247) 11.2%, rgb(237, 246, 250) 100.2%);
+  color: var(--licorice-black-color);
   padding: 3em 3em;
   font-family: var(--ubuntu);
   font-weight: 200;

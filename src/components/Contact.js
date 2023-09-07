@@ -22,13 +22,13 @@ function Contact() {
         <li>Bookings and Consultations</li>
         <li>Questions about services</li>
         <li>Questions about pricing</li>
-        <li>General enquiries</li>
+        <li>General inquiries</li>
       </ul>
       <p>Email by filling in this form - I will try to get back to you within 2-4 working days </p>
       <p>Or directly send an email to <span style={{textDecoration: 'underline', fontWeight: 'bold'}}>asicharles.mindfulness@gmail.com</span></p>
 
-      <div className='youtube'>Subscribe to my <a style={{color: 'var(--nav-color)'}} href='https://www.youtube.com/@justlovemeditations' target='_blank' rel="noreferrer"><FontAwesomeIcon style={{marginRight: '.2em'}} icon={faYoutube}/></a>channel to check out my guided meditations </div>
-      <span style={{marginRight: '.2em'}}>↳</span><a style={{color: 'var(--nav-color)', fontWeight: 'bold'}} href='https://www.youtube.com/@justlovemeditations' target='_blank' rel="noreferrer"><span>Just Love Meditations</span></a>
+      <div className='youtube'>Subscribe to my <a style={{color: 'var(--licorice-black-color)'}} href='https://www.youtube.com/@justlovemeditations' target='_blank' rel="noreferrer"><FontAwesomeIcon style={{marginRight: '.2em'}} icon={faYoutube}/></a>channel to check out my guided meditations </div>
+      <span style={{marginRight: '.2em'}}>↳</span><a style={{color: 'var(--licorice-black-color)', fontWeight: 'bold'}} href='https://www.youtube.com/@justlovemeditations' target='_blank' rel="noreferrer"><span>Just Love Meditations</span></a>
 
     </div>
 
