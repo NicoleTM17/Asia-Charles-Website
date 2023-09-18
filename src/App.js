@@ -10,13 +10,12 @@ import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faCircleUp } from '@fortawesome/free-solid-svg-icons';
+
 
 import Navbar from './components/Navbar.js';
-import Banner from './components/Banner.js';
-import About from './components/About.js';
+import Home from './components/Home.js';
 import Services from './components/Services.js';
-import Reviews from './components/Reviews.js';
-import Contact from './components/Contact.js';
 import Footer from './components/Footer.js';
 
 
@@ -24,6 +23,7 @@ library.add(faChevronDown);
 library.add(faChevronUp);
 library.add(faInstagram);
 library.add(faYoutube);
+library.add(faCircleUp);
 
 
 
@@ -57,16 +57,7 @@ function App() {
   );
 }
 
-function Home() {
-  return (
-    <>
-      <Banner  />
-      <About id='about' />
-      <Reviews id='reviews'  />
-      <Contact id='contact'  />
-    </>
-  );
-}
+
 
 export default App;
 
