@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { useState } from 'react';
-// import { HashLink as Link } from 'react-router-hash-link';
 import { NavLink } from 'react-router-dom';
 import { Link as ScrollLink } from 'react-scroll';
+// import { HashLink as Link } from 'react-router-hash-link';
 
 import '../styles/Navbar.css';
 

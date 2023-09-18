@@ -25,10 +25,10 @@ function Contact() {
         <li>General inquiries</li>
       </ul>
       <p>Email by filling in this form - I will try to get back to you within 2-4 working days </p>
-      <p>Or directly send an email to <span style={{textDecoration: 'underline', fontWeight: 'bold'}}>asicharles.mindfulness@gmail.com</span></p>
+      <p>Or directly send an email to <a style={{color: 'var(--licorice-black-color'}} href='mailto:asicharles.mindfulness@gmail.com' target='_blank' rel="noreferrer"><span style={{textDecoration: 'underline', fontWeight: 'bold'}}>asicharles.mindfulness@gmail.com</span></a></p>
 
       <div className='youtube'>Subscribe to my <a style={{color: 'var(--licorice-black-color)'}} href='https://www.youtube.com/@justlovemeditations' target='_blank' rel="noreferrer"><FontAwesomeIcon style={{marginRight: '.2em'}} icon={faYoutube}/></a>channel to check out my guided meditations </div>
-      <span style={{marginRight: '.2em'}}>↳</span><a style={{color: 'var(--licorice-black-color)', fontWeight: 'bold'}} href='https://www.youtube.com/@justlovemeditations' target='_blank' rel="noreferrer"><span>Just Love Meditations</span></a>
+      <a style={{color: 'var(--licorice-black-color)', fontWeight: 'bold'}} href='https://www.youtube.com/@justlovemeditations' target='_blank' rel="noreferrer"><span>Just Love Meditations</span></a>
 
     </div>
 
