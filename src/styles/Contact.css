@@ -1,5 +1,6 @@
 
 #contact{
+  position: relative;
   width: 100%;
   height: auto;
   /* background-color: #e3edef; */
@@ -40,7 +41,19 @@
 }
 
 
+.contact-circle-up{
+  position: absolute;
+  font-size: 3em;
+  bottom: .5em;
+  right: .5em;
+  color: var(--nav-color);
+  cursor: pointer;
+  transition: 200ms ease-in-out;
+}
 
+.contact-circle-up:hover{
+  opacity: 0.7;
+}
 
 
 /* STICKY */

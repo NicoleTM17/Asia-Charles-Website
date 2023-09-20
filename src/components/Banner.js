@@ -12,7 +12,7 @@ import { faChevronDown} from '@fortawesome/free-solid-svg-icons';
 
 function Banner() {
   return(
-    <div className='carousel-container'>
+    <div id='banner' className='carousel-container'>
       <Carousel fade controls={false} indicators={false}>
 
         <Carousel.Item>

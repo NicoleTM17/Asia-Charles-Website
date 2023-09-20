@@ -1,5 +1,5 @@
-// import { useRef } from 'react';
-// import emailjs from '@emailjs/browser';
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 // import Swal from 'sweetalert2';
 
 import '../styles/Form.css';
@@ -7,15 +7,15 @@ import '../styles/Form.css';
 function Form(){
 
 
-  // const form = useRef();
+  const form = useRef();
 
-  // const sendEmail = (event) => {
-    // event.preventDefault();
+  const sendEmail = (event) => {
+    event.preventDefault();
 
-    // emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
-    //  .then((result) => {
-    //      // show the user a success message
-    //      console.log(result.text);
+    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+     .then((result) => {
+         // show the user a success message
+         console.log(result.text);
 
     //      Swal.fire({ // sweet alert
     //       title: 'Thanks for reaching out!',
@@ -24,18 +24,17 @@ function Form(){
     //       confirmButtonText: 'Great!'
     //     });
 
-    //       setCounter(0); // resettingt the counter
-    //  }, (error) => {
-    //      // show the user an error
-    //      console.log(error.text);
-    //  });
-    //  event.target.reset();
-  // };
+    }, (error) => {
+       // show the user an error
+         console.log(error.text);
+     });
+     event.target.reset(); // resetting the form
+  };
 
 
 
   return(
-    <form id='contact-form'>
+    <form ref={form} onSubmit={sendEmail} autoComplete="on" id='contact-form'>
 
       <span>
         <input type="text" name='first_name' placeholder='First name*' required style={{width: '45%', marginBottom: '2em'}} />

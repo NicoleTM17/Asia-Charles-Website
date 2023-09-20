@@ -1,14 +1,21 @@
 // import { HashLink as Link } from 'react-router-hash-link';
+
 import '../styles/Contact.css';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faYoutube } from '@fortawesome/free-brands-svg-icons';
-// import { faChevronUp} from '@fortawesome/free-solid-svg-icons';
+import { faCircleUp } from '@fortawesome/free-solid-svg-icons';
 
 import Form from './Form.js';
 
 function Contact() {
+
+  const handleClick = () => {
+    window.scrollTo(0, 0); // Scrolls to the top of the page
+  };
+
+
   return(
     <div id='contact'>
 
@@ -43,6 +50,7 @@ function Contact() {
 
 
     </div>
+    <div onClick={handleClick} className='contact-circle-up'><FontAwesomeIcon icon={faCircleUp}/></div>
     </div>
   )
 };
