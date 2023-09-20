@@ -20,11 +20,12 @@ function Contact() {
       <p>Get in touch with me today to discuss...</p>
       <ul className='discussion-list'>
         <li>Bookings and Consultations</li>
-        <li>Questions about services</li>
-        <li>Questions about pricing</li>
+        <li>To discuss services</li>
+        <li>To discuss pricing</li>
+        <li>Business collaborations</li>
         <li>General inquiries</li>
       </ul>
-      <p>Email by filling in this form - I will try to get back to you within 2-4 working days </p>
+      <p>Email by filling in this form - I will get back to you within 2-4 working days </p>
       <p>Or directly send an email to <a style={{color: 'var(--licorice-black-color'}} href='mailto:asicharles.mindfulness@gmail.com' target='_blank' rel="noreferrer"><span style={{textDecoration: 'underline', fontWeight: 'bold'}}>asicharles.mindfulness@gmail.com</span></a></p>
 
       <div className='youtube'>Subscribe to my <a style={{color: 'var(--licorice-black-color)'}} href='https://www.youtube.com/@justlovemeditations' target='_blank' rel="noreferrer"><FontAwesomeIcon style={{marginRight: '.2em'}} icon={faYoutube}/></a>channel to check out my guided meditations </div>

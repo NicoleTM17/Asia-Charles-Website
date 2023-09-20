@@ -8,28 +8,6 @@ import '../styles/Services.css';
 
 function Services() {
 
-  // 4 toggles
-  // const [isVisibleOne, setIsVisibleOne] = useState(false);
-  // const [isVisibleTwo, setIsVisibleTwo] = useState(false);
-  // const [isVisibleThree, setIsVisibleThree] = useState(false);
-  // const [isVisibleFour, setIsVisibleFour] = useState(false);
-
-  // function handleClickOne() {
-  //   setIsVisibleOne(!isVisibleOne);
-  // }
-
-  // function handleClickTwo() {
-  //   setIsVisibleTwo(!isVisibleTwo);
-  // }
-
-  // function handleClickThree() {
-  //   setIsVisibleThree(!isVisibleThree);
-  // }
-
-  // function handleClickFour() {
-  //   setIsVisibleFour(!isVisibleFour);
-  // }
-
   useEffect(() => {
     window.scrollTo(0, 0); // Scrolls to the top of the page
   }, []);

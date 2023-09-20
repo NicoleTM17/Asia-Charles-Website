@@ -9,7 +9,8 @@
   font-weight: 300;
   text-align: center;
   font-style: italic;
-  font-family: var(--josefin);
+  /* font-family: var(--josefin); */
+  font-family: 'Asap', sans-serif;
   animation: fade-in ease-in 1s;
 }
 
