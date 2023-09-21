@@ -2,7 +2,6 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { Link as ScrollLink } from 'react-scroll';
-// import { HashLink as Link } from 'react-router-hash-link';
 
 import '../styles/Navbar.css';
 
@@ -50,6 +49,7 @@ function Navbar(){
 
           <li style={{ marginRight: '0.5em' }}><a href='https://drive.google.com/file/d/1RSFSbcX48HvCzbIEpaUu3df6lHdl5BHk/view?usp=drivesdk' target='_blank' rel="noopener noreferrer">CV</a></li>
         </ul>
+
       </div>
 
 

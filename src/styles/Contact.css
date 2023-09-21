@@ -1,9 +1,11 @@
 
 #contact{
+  position: relative;
   width: 100%;
   height: auto;
   /* background-color: #e3edef; */
-  background: linear-gradient(109.6deg, rgb(204, 228, 247) 11.2%, rgb(237, 246, 250) 100.2%);
+  /* background: linear-gradient(109.6deg, rgb(204, 228, 247) 11.2%, rgb(237, 246, 250) 100.2%); */
+  background: linear-gradient(108.1deg, rgb(167, 220, 225) 11.2%, rgb(217, 239, 242) 88.9%);
   color: var(--licorice-black-color);
   padding: 3em 3em;
   font-family: var(--ubuntu);
@@ -39,7 +41,19 @@
 }
 
 
+.contact-circle-up{
+  position: absolute;
+  font-size: 3em;
+  bottom: .5em;
+  right: .5em;
+  color: var(--nav-color);
+  cursor: pointer;
+  transition: 200ms ease-in-out;
+}
 
+.contact-circle-up:hover{
+  opacity: 0.7;
+}
 
 
 /* STICKY */

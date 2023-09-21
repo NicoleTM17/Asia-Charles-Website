@@ -38,6 +38,7 @@ WebFont.load({
     'Text+Me+One',
     'Asap:wght@300',
     'Ubuntu:wght@300;400&display=swap',
+    'Croissant+One&family',
   ]
   }
   });
@@ -60,9 +61,3 @@ function App() {
 
 
 export default App;
-
-
-// Banner
-// About
-// Reviews
-// Contact

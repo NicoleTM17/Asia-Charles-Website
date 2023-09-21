@@ -1,5 +1,6 @@
 
 #services{
+  position: relative;
   width: 100%;
   /* background-color: #85a8b7; */
 }
@@ -9,7 +10,7 @@
   font-weight: 300;
   text-align: center;
   font-style: italic;
-  font-family: var(--josefin);
+  font-family: 'Croissant One';
   animation: fade-in ease-in 1s;
 }
 
@@ -105,21 +106,24 @@
 }
 
 .book{
-  font-size: .9em;
+  font-size: 1em;
   font-weight: bold;
-  padding: 1em;
-  text-align: center;
-  background-color: var(--nav-color);
+  font-family: var(--ubuntu);
+  margin-top: 2em;
+  /* padding: 1em; */
+  /* text-align: center; */
+  /* background-color: var(--nav-color);
   border: 2px solid var(--nav-color);
-  border-radius: 5px;
-  width: 15%;
+  border-radius: 5px; */
+  /* width: 15%; */
   cursor: pointer;
   transition: 200ms ease-in-out;
 }
 
 .book:hover{
-  background-color: var(--off-white-color);
-  border: 2px solid var(--nav-color);
+  /* background-color: var(--off-white-color); */
+  /* border: 2px solid var(--nav-color); */
+  opacity: 0.7;
 }
 
 /* CONDITIONAL */
@@ -133,6 +137,19 @@
   display: none;
 }
 
+.contact-circle-up-2{
+  position: absolute;
+  font-size: 3em;
+  bottom: 0;
+  right: .5em;
+  color: var(--nav-color);
+  cursor: pointer;
+  transition: 200ms ease-in-out;
+}
+
+.contact-circle-up-2:hover{
+  opacity: 0.7;
+}
 
 /* #BDB8B6 -services
 #9a9593 - how it works */
