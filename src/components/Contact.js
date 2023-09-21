@@ -27,8 +27,8 @@ function Contact() {
       <p>Get in touch with me today to discuss...</p>
       <ul className='discussion-list'>
         <li>Bookings and Consultations</li>
-        <li>To discuss services</li>
-        <li>To discuss pricing</li>
+        <li>Services</li>
+        <li>Pricing</li>
         <li>Business collaborations</li>
         <li>General inquiries</li>
       </ul>

@@ -12,8 +12,8 @@
 
 
 .slogan{
-  font-family: var(--josefin);
-  /* font-family: 'Croissant One', cursive; */
+  /* font-family: var(--josefin); */
+  font-family: 'Croissant One', cursive;
   font-style: italic;
   font-size: 3em;
   font-weight: 300;
@@ -25,8 +25,8 @@
 
 .carousel-slogan{
   position: absolute;
-  bottom: 8.5em;
-  left: 5em;
+  bottom: 9em;
+  left: 7em;
   z-index: 1;
   color: var(--off-white-color);
 }

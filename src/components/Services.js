@@ -42,7 +42,7 @@ function Services() {
 
         {/* <div className='click-btn'>Click here to see how it works</div> */}
 
-        <p className='book'><Link style={{color: 'var(--licorice-black-color)', textDecoration: 'none'}} to='/#contact'>BOOK NOW</Link></p>
+        <p className='book'><Link style={{color: 'var(--licorice-black-color)', textUnderlineOffset: '.75em'}} to='/#contact'>BOOK NOW</Link></p>
       </div>
 
       <div className='how-it-works'>
@@ -65,7 +65,7 @@ function Services() {
       </ul>
       {/* <div className='click-btn'>Click here to see how it works</div> */}
 
-      <p className='book'><Link style={{color: 'var(--licorice-black-color)', textDecoration: 'none'}} to='/#contact'>BOOK NOW</Link></p>
+      <p className='book'><Link style={{color: 'var(--licorice-black-color)', textUnderlineOffset: '.75em'}} to='/#contact'>BOOK NOW</Link></p>
 
     </div>
 
@@ -105,7 +105,7 @@ function Services() {
         <p>I like to use metaphors, stories, games, poetry, and real-life applications to illustrate certain concepts.</p>
         {/* <div className='click-btn'>Click here to see how it works</div> */}
 
-        <p className='book'><Link style={{color: 'var(--licorice-black-color)', textDecoration: 'none'}} to='/#contact'>BOOK NOW</Link></p>
+        <p className='book'><Link style={{color: 'var(--licorice-black-color)', textUnderlineOffset: '.75em'}} to='/#contact'>BOOK NOW</Link></p>
 
     </div>
 
@@ -132,7 +132,7 @@ function Services() {
       </ul>
       {/* <div className='click-btn'>Click here to see how it works</div> */}
 
-      {/* <p style={{marginTop: '2em'}} className='book'><Link style={{color: 'var(--licorice-black-color)', textDecoration: 'none'}} to='/#contact'>BOOK NOW</Link></p> */}
+      <p style={{marginTop: '2em'}} className='book'><Link style={{color: 'var(--licorice-black-color)', textUnderlineOffset: '.75em'}} to='/#contact'>BOOK NOW</Link></p>
 
     </div>
 
