@@ -61,9 +61,3 @@ function App() {
 
 
 export default App;
-
-
-// Banner
-// About
-// Reviews
-// Contact

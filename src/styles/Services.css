@@ -109,20 +109,22 @@
   font-size: 1em;
   font-weight: bold;
   font-family: var(--ubuntu);
-  padding: 1em;
-  text-align: center;
+  margin-top: 2em;
+  /* padding: 1em; */
+  /* text-align: center; */
   /* background-color: var(--nav-color);
   border: 2px solid var(--nav-color);
   border-radius: 5px; */
-  width: 15%;
+  /* width: 15%; */
   cursor: pointer;
   transition: 200ms ease-in-out;
 }
 
-/* .book:hover{
-  background-color: var(--off-white-color);
-  border: 2px solid var(--nav-color);
-} */
+.book:hover{
+  /* background-color: var(--off-white-color); */
+  /* border: 2px solid var(--nav-color); */
+  opacity: 0.7;
+}
 
 /* CONDITIONAL */
 
