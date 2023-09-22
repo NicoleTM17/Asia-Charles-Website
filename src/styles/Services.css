@@ -22,11 +22,13 @@
 
 
 .services-header{
-  font-family: var(--josefin);
+  /* font-family: var(--josefin); */
+  font-family: 'Croissant One';
 }
 
 .services-subheader{
-  font-family: var(--josefin);
+  /* font-family: var(--josefin); */
+  font-family: 'Croissant One';
 }
 
 .services-details{

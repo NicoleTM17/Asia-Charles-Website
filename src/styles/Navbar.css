@@ -79,7 +79,6 @@ body{ /* Added so that everything in the nav is budged up to the top of the scre
   font-weight: bolder;
   text-decoration: underline !important;
   text-underline-offset: .2em;
-  /* background-color: rgba(75, 131, 181, 0.847); */
 }
 
 @media(max-width: 540px){
