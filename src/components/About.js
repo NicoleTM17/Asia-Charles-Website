@@ -29,7 +29,7 @@ function About(){
             My dedication to the 8-week course led me to a significant transformation and my initial curiosity to connect to myself and others more deeply turned into a passion.
             <br/><br/>
             By learning to welcome my experiences with more openness and less judgement, I became more courageous and better able to navigate the waves of emotions and grief flooding into my life frequently at the time.
-            <br/>
+            <br/><br/>
             Through my consistent and intentional mindfulness practice, I began to nurture a more genuine appreciation for life, taking in all of the small, yet golden opportunities to take in joy, and feeling more alive than ever before.<br/>
             <br/>
             I teach you how to master the art of being present, so that you may...

@@ -12,7 +12,7 @@ function Form(){
   const sendEmail = (event) => {
     event.preventDefault();
 
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+    emailjs.sendForm('service_oe7obo6', '81fxgqn', form.current, 'NwW80pzW_-M-q0Y2A')
      .then((result) => {
          // show the user a success message
          console.log(result.text);
@@ -46,7 +46,9 @@ function Form(){
       <input type="text" name='subject' placeholder='Subject*' required style={{width: '91%', marginBottom: '2em'}} />
 
       <textarea name="message" placeholder='Enter a message...*' cols="30" rows="7" required style={{width: '91%', marginBottom: '1em'}}></textarea>
+
       <input type="submit" className="submit-btn" value='Submit' style={{width: '40%'}} />
+
     </form>
 
   );

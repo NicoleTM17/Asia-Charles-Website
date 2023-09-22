@@ -1,9 +1,254 @@
 
 @media (max-width: 960px){
 
+  /* NAVBAR */
+
+  .brand-logo {
+    width: 30%;
+    margin: .2rem;
+  }
+
+  .brand-logo img{
+    width: 50%;
+  }
+
+  /* BANNER */
+
+  .carousel-slogan{
+    font-size: 2.5em;
+    bottom: 8.5em;
+    left: 5em;
+  }
+
+  .chevron-down{
+    top: 0em;
+    font-size: 3.5em;
+    text-align: center;
+  }
+
+  .carousel .carousel-item img {
+    height: 600px;
+  }
+
+  /* ABOUT  */
+
+  #about{
+    height: 100%;
+  }
+
+  .about-me{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .flower-border-top{
+    width: 20em;
+  }
+
+  .flower-border-bottom{
+    width: 20em;
+  }
+
+  .about-page-img{
+    margin-top: -3em;
+  }
+
+  .about-collage{
+    display: block;
+    padding: 5em 5em;
+  }
+
+  /* SERVICES  */
+
+  .outcomes-list li{
+    width: 50%;
+    margin-bottom: 2em;
+  }
+
+  .outcomes-list{
+    display: block;
+    margin: 2em auto;
+  }
+
+  .disclaimer p{
+    padding: 1em 5em;
+  }
+
+  /* REVIEWS   */
+
+  .review-section{
+    width: 100%;
+    height: 300px;
+    padding: 0;
+  }
+
+  /* CONTACT   */
+
+  .contact-form-section{
+    margin-left: 1em;
+  }
+
+  /* FOOTER  */
+
 }
 
 @media (max-width: 720px){
+
+  /* NAVBAR */
+
+  .brand-logo {
+    width: 30%;
+    margin: .2rem;
+  }
+
+  .brand-logo img{
+    width: 45%;
+  }
+
+  .navbar-links li{
+    padding: 1rem;
+    font-size: 1em;
+  }
+
+  /* BANNER */
+
+  .carousel-slogan{
+    font-size: 2em;
+    bottom: 9.5em;
+    left: 4em;
+  }
+
+  .chevron-down{
+    top: 0em;
+    font-size: 3em;
+    text-align: center;
+  }
+
+  .carousel .carousel-item img {
+    height: 550px;
+  }
+
+  /* ABOUT  */
+
+  #about{
+    height: 100%;
+  }
+
+  .about-me{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .flower-border-top{
+    width: 15em;
+  }
+
+  .flower-border-bottom{
+    width: 15em;
+  }
+
+  .about-page-img{
+    margin-top: -3em;
+  }
+
+  .about-collage{
+    display: block;
+    padding: 5em 5em;
+  }
+
+
+  /* SERVICES  */
+
+  #services{
+    height: 100%;
+  }
+
+  .services-details{
+    padding: 2em 2em;
+  }
+
+  .services-slogan{
+    font-size: 2em;
+    margin-top: 2em;
+  }
+
+  .outcomes-list li{
+    width: 80%;
+    margin-bottom: 2em;
+  }
+
+  .outcomes-list{
+    display: block;
+  }
+
+  .services-circle-up{
+    right: .1em;
+  }
+
+  /* REVIEWS   */
+
+  #reviews {
+    padding: 6em 2em; /* Adjust padding for small screens */
+  }
+
+  .my-reviews{
+    display: block;
+  }
+
+  .review-section{
+    padding: 0;
+    height: 250px;
+  }
+
+  .review-txt{
+    margin-top: -2em;
+  }
+
+  /* CONTACT   */
+
+  #contact{
+    height: 100%;
+  }
+
+  .contact-header{
+    margin: .5em;
+  }
+
+  .contact-wrapper{
+    display: block;
+    flex-direction: column; /* Change to column to stack elements vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center;
+  }
+
+  .contact-details{
+    display: block;
+    margin-bottom: 3em;
+  }
+
+  .discussion-list{
+    text-align: start;
+    margin-left: 2em;
+  }
+
+  .contact-form-section{
+    display: block;
+    margin: 0 auto;
+    text-align: left;
+    margin-left: -2em;
+  }
+
+  .submit-btn{
+    width: 91% !important;
+  }
+
+  .contact-circle-up{
+    right: .2em;
+  }
+
+  /* FOOTER  */
 
 }
 
@@ -16,8 +261,13 @@
 
   /* NAVBAR STYLING */
 
+  .brand-logo {
+    width: 30%;
+    margin: .2rem;
+  }
+
   .brand-logo img{
-    width: 22%;
+    width: 50%;
   }
 
   /* BANNER STYLING */
@@ -25,6 +275,7 @@
   .carousel-slogan{
     font-size: 1.3em;
     bottom: 9em;
+    left: 4em;
   }
 
   .chevron-down{
@@ -61,14 +312,13 @@
     width: 10em;
   }
 
-
   .welcome-txt{
-    font-size: 2em;
-    margin-top: 0em;
+    font-size: 1.9em;
+    margin-top: 1em;
   }
 
   .welcome-content{
-    text-align: center;
+    text-align: justify;
     padding: 1em 0em;
   }
 
@@ -105,6 +355,7 @@
 
   .services-slogan{
     font-size: 1.5em;
+    margin-top: 2em;
   }
 
   .outcomes-list li{
@@ -114,6 +365,10 @@
 
   .outcomes-list{
     display: block;
+  }
+
+  .services-circle-up{
+    right: .1em;
   }
 
   /* REVIEWS STYLING */
@@ -130,6 +385,10 @@
 
   #contact{
     height: 100%;
+  }
+
+  .contact-header{
+    margin: .5em;
   }
 
   .contact-wrapper{
@@ -153,10 +412,15 @@
     display: block;
     margin: 0 auto;
     text-align: left;
+    margin-left: -2em;
   }
 
   .submit-btn{
     width: 91% !important;
+  }
+
+  .contact-circle-up{
+    right: .2em;
   }
 
 }

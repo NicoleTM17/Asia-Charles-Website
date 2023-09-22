@@ -153,7 +153,7 @@ function Services() {
       </div>
     </div>
 
-    <div onClick={handleClick} className='contact-circle-up-2'><FontAwesomeIcon icon={faCircleUp}/></div>
+    <div onClick={handleClick} className='services-circle-up'><FontAwesomeIcon icon={faCircleUp}/></div>
 
     </div>
   )

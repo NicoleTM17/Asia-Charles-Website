@@ -15,6 +15,10 @@ function Navbar(){
     setIsActive(!isActive);
   }
 
+  function closeNav(){
+    setIsActive(false);
+  }
+
 
   return(
     <div id='home' className='navbar'>
@@ -37,15 +41,15 @@ function Navbar(){
       <div className={`navbar-links ${isActive ? 'active' : ''}`}>
 
         <ul>
-          <li><NavLink to="/" className={(navData) => (navData.isActive ? "navlink-bold" : 'none')}>Home</NavLink></li>
+          <li><NavLink onClick={closeNav} to="/" className={(navData) => (navData.isActive ? "navlink-bold" : 'none')}>Home</NavLink></li>
 
-          <li><ScrollLink to="about" spy={true} smooth='true' duration={500} style={{ textDecoration: 'none', cursor: 'pointer' }}>About</ScrollLink></li>
+          <li><ScrollLink onClick={closeNav} to="about" spy={true} smooth='true' duration={500} style={{ textDecoration: 'none', cursor: 'pointer' }}>About</ScrollLink></li>
 
-          <li><NavLink to="/services" className={(navData) => (navData.isActive ? "navlink-bold" : 'none')}>Services</NavLink></li>
+          <li><NavLink onClick={closeNav} to="/services" className={(navData) => (navData.isActive ? "navlink-bold" : 'none')}>Services</NavLink></li>
 
-          <li><ScrollLink to="reviews" spy={true} smooth='true' duration={500} style={{ textDecoration: 'none', cursor: 'pointer' }}>Reviews</ScrollLink></li>
+          <li><ScrollLink onClick={closeNav} to="reviews" spy={true} smooth='true' duration={500} style={{ textDecoration: 'none', cursor: 'pointer' }}>Reviews</ScrollLink></li>
 
-          <li><ScrollLink to="contact" spy={true} smooth='true' duration={500} style={{ textDecoration: 'none', cursor: 'pointer' }}>Contact</ScrollLink></li>
+          <li><ScrollLink onClick={closeNav} to="contact" spy={true} smooth='true' duration={500} style={{ textDecoration: 'none', cursor: 'pointer' }}>Contact</ScrollLink></li>
 
           <li style={{ marginRight: '0.5em' }}><a href='https://drive.google.com/file/d/1RSFSbcX48HvCzbIEpaUu3df6lHdl5BHk/view?usp=drivesdk' target='_blank' rel="noopener noreferrer">CV</a></li>
         </ul>
