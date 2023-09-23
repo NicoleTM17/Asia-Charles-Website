@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
-// import Swal from 'sweetalert2';
+import Swal from 'sweetalert2';
 
 import '../styles/Form.css';
 
@@ -12,17 +12,17 @@ function Form(){
   const sendEmail = (event) => {
     event.preventDefault();
 
-    emailjs.sendForm('service_oe7obo6', '81fxgqn', form.current, 'NwW80pzW_-M-q0Y2A')
+    emailjs.sendForm('service_oe7obo6', 'template_81fxgqn', form.current, 'NwW80pzW_-M-q0Y2A')
      .then((result) => {
          // show the user a success message
          console.log(result.text);
 
-    //      Swal.fire({ // sweet alert
-    //       title: 'Thanks for reaching out!',
-    //       text: 'Your response has been sent.',
-    //       icon: 'success',
-    //       confirmButtonText: 'Great!'
-    //     });
+         Swal.fire({ // sweet alert
+          title: 'Thanks for reaching out!',
+          text: 'Your response has been sent.',
+          icon: 'success',
+          confirmButtonText: 'Great!',
+        });
 
     }, (error) => {
        // show the user an error
