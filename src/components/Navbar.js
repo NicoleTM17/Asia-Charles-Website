@@ -25,17 +25,12 @@ function Navbar(){
 
       <NavLink to='/' className='brand-logo'><img src='images/logo.png' alt='logo'/></NavLink>
 
-      <a href='#' className={`toggle-button ${isActive ? 'active' : ''}`} onClick={toggleNavLinks}>
-        {isActive ? (
-          <span className='exit'>✘</span>
-        ) : (
-          <>
-            <span className='bar'></span>
-            <span className='bar'></span>
-            <span className='bar'></span>
-          </>
-          )}
-      </a>
+
+      <div className={`menu-btn ${isActive === true ? 'exit-nav' : ''}`} onClick={toggleNavLinks}>
+          <div className='menu-btn-burger'>
+
+          </div>
+      </div>
 
 
       <div className={`navbar-links ${isActive ? 'active' : ''}`}>

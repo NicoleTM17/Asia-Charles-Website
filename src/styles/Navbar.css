@@ -53,79 +53,8 @@ body{ /* Added so that everything in the nav is budged up to the top of the scre
   font-weight: bolder;
 }
 
-
-/* HAMBURGER MENU */
-
-.toggle-button{
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
-  display: none;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 30px;
-  height: 21px;
-  cursor: pointer;
-}
-
-.bar{
-  height: 3px;
-  width: 100%;
-  background-color: #e9f0ec;
-  border-radius: 10px;
-}
-
 .navlink-bold {
   font-weight: bolder;
   text-decoration: underline !important;
   text-underline-offset: .2em;
-}
-
-@media(max-width: 540px){
-
-  .toggle-button{
-    display: flex;
-  }
-
-  .exit{
-    position: absolute;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 21px;
-    font-size: 2em;
-    cursor: pointer;
-    color: var(--off-white-color);
-  }
-
-  .navbar-links{
-    display:none;
-    width: 100%;
-    transition: opacity 0.5s ease-in-out;
-  }
-
-  .navbar{
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .navbar-links ul{
-    width: 100%;
-    flex-direction: column;
-  }
-
-  .navbar-links li{
-    text-align: center;
-    padding: 1rem;
-  }
-
-  .navbar-links li a {
-    padding: .5rem 1rem;
-  }
-
-  .navbar-links.active {
-    display: flex;
-    opacity: 1;
-  }
-
 }
