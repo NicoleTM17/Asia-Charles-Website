@@ -20,7 +20,7 @@ function Services() {
       {/* PERSONALISED GUIDED MEDITATIONS */}
 
       <div className='services-details' style={{backgroundImage: 'linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url(https://images.unsplash.com/photo-1499346030926-9a72daac6c63?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', color:'var(--licorice-black-color)'}}>
-        <Link to='/' className='back-btn' style={{textDecoration: 'none'}}><span>← </span><span style={{textDecoration: 'underline', textUnderlineOffset: '.4em'}}>Go back</span></Link>
+        <Link to='/' className='back-btn' style={{textDecoration: 'none'}}><span>← </span><span>Go back</span></Link>
         <h2 className='services-slogan'>I write the meditations keeping you in mind, using my knowledge, experience, intuition, and creativity.</h2>
 
         <br/><br/>

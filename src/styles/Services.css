@@ -57,6 +57,7 @@
   padding: 2em 2em;
   font-family: var(--ubuntu);
   font-weight: 200;
+  color: var(--off-white-color);
 }
 
 .outcomes-list li{

@@ -18,8 +18,8 @@ function Form(){
          console.log(result.text);
 
          Swal.fire({ // sweet alert
-          title: 'Thanks for reaching out!',
-          text: 'Your response has been sent.',
+          title: 'Thank you!',
+          text: 'Your enquiry has been sent.',
           icon: 'success',
           confirmButtonText: 'Great!',
         });

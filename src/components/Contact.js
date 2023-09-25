@@ -30,7 +30,7 @@ function Contact() {
         <li>Services</li>
         <li>Pricing</li>
         <li>Business collaborations</li>
-        <li>General inquiries</li>
+        <li>General enquiries</li>
       </ul>
       <p>Email by filling in this form - I will get back to you within 2-4 working days </p>
       <p>Or directly send an email to <a style={{color: 'var(--licorice-black-color'}} href='mailto:asicharles.mindfulness@gmail.com' target='_blank' rel="noreferrer"><span style={{textDecoration: 'underline', fontWeight: 'bold'}}>asicharles.mindfulness@gmail.com</span></a></p>
