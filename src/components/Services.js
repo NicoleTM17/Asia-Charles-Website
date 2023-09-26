@@ -41,12 +41,12 @@ function Services() {
 
         {/* <div className='click-btn'>Click here to see how it works</div> */}
 
-        <p className='book'><Link style={{color: 'var(--licorice-black-color)', textUnderlineOffset: '.75em'}} to='/#contact'>BOOK NOW</Link></p>
+        <p className='book'><Link style={{color: 'var(--licorice-black-color)', textUnderlineOffset: '.75em'}} to='/?id=contact'>BOOK NOW</Link></p>
       </div>
 
       <div className='how-it-works'>
         <h2 className='services-subheader' style={{fontSize: '2em', fontStyle: 'italic', fontWeight: '200', marginBottom: '.5em'}}>How it works - Personalised guided meditations</h2>
-        <p>Get in touch by <Link style={{color: 'var(--licorice-black)'}} to='/#contact'>here</Link>, and I will get back to you to schedule a free consultation. Following this, I will send you an invoice and ask you to make the full payment.</p>
+        <p>Get in touch by <Link style={{color: 'var(--licorice-black)'}} to='/?id=contact'>here</Link>, and I will get back to you to schedule a free consultation. Following this, I will send you an invoice and ask you to make the full payment.</p>
         <p>During our consultation, I will listen to your current situation, needs, desires, and intentions in a non-judgmental, kind, and compassionate way, asking open-ended questions. The duration of the consultation may vary between 30 and 60 minutes.</p>
         <p>I will then get back to you with a script draft. Once you have approved it, I will record the meditation and send you the final product.</p>
         <p>You must be 18+. This is not counselling or therapy.</p>
@@ -64,14 +64,14 @@ function Services() {
       </ul>
       {/* <div className='click-btn'>Click here to see how it works</div> */}
 
-      <p className='book'><Link style={{color: 'var(--licorice-black-color)', textUnderlineOffset: '.75em'}} to='/#contact'>BOOK NOW</Link></p>
+      <p className='book'><Link style={{color: 'var(--licorice-black-color)', textUnderlineOffset: '.75em'}} to='/?id=contact'>BOOK NOW</Link></p>
 
     </div>
 
       <div className='how-it-works'>
         <h2 className='services-subheader' style={{fontSize: '2em', fontStyle: 'italic', fontWeight: '200', marginBottom: '.5em'}}>How it works - Live guided meditations</h2>
         <p>The session will take place online.</p>
-        <p>Once you have expressed your interest <Link style={{color: 'var(--licorice-black)'}} to='/#contact'>here</Link>, I will get back to you to schedule a session or a series of sessions, depending on your individual needs.</p>
+        <p>Once you have expressed your interest <Link style={{color: 'var(--licorice-black)'}} to='/?id=contact'>here</Link>, I will get back to you to schedule a session or a series of sessions, depending on your individual needs.</p>
         <p>I will then send you an invoice and ask you to make the payment.</p>
         <p>I have a 24-hour cancellation policy and you must be 18+. This is not counselling or therapy.</p>
         <br/>
@@ -104,13 +104,13 @@ function Services() {
         <p>I like to use metaphors, stories, games, poetry, and real-life applications to illustrate certain concepts.</p>
         {/* <div className='click-btn'>Click here to see how it works</div> */}
 
-        <p className='book'><Link style={{color: 'var(--licorice-black-color)', textUnderlineOffset: '.75em'}} to='/#contact'>BOOK NOW</Link></p>
+        <p className='book'><Link style={{color: 'var(--licorice-black-color)', textUnderlineOffset: '.75em'}} to='/?id=contact'>BOOK NOW</Link></p>
 
     </div>
 
     <div className='how-it-works'>
         <h2 className='services-subheader' style={{fontSize: '2em', fontStyle: 'italic', fontWeight: '200', marginBottom: '.5em'}}>How it works - Mindfulness and Well-being workshops</h2>
-        <p>Contact me <Link style={{color: 'var(--licorice-black)'}} to='/#contact'>here</Link>, and we will schedule a call to discuss your requisites, including the frequency, date/s, duration, mode of delivery, and content catered to the needs of the specific context in which you would like me to teach.</p>
+        <p>Contact me <Link style={{color: 'var(--licorice-black)'}} to='/?id=contact'>here</Link>, and we will schedule a call to discuss your requisites, including the frequency, date/s, duration, mode of delivery, and content catered to the needs of the specific context in which you would like me to teach.</p>
         <p>Once we have agreed on this, I will send you an invoice and ask you to make the full payment.</p>
         <p>This is not counselling or therapy.</p>
         <br/>
@@ -131,13 +131,13 @@ function Services() {
       </ul>
       {/* <div className='click-btn'>Click here to see how it works</div> */}
 
-      <p style={{marginTop: '2em'}} className='book'><Link style={{color: 'var(--licorice-black-color)', textUnderlineOffset: '.75em'}} to='/#contact'>BOOK NOW</Link></p>
+      <p style={{marginTop: '2em'}} className='book'><Link style={{color: 'var(--licorice-black-color)', textUnderlineOffset: '.75em'}} to='/?id=contact'>BOOK NOW</Link></p>
 
     </div>
 
     <div className='how-it-works'>
         <h2 className='services-subheader' style={{fontSize: '2em', fontStyle: 'italic', fontWeight: '200', marginBottom: '.5em'}}>How it works - Mindfulness and Well-being sessions</h2>
-        <p>If you are interested, contact me <Link style={{color: 'var(--licorice-black)'}} to='/#contact'>here</Link>, and I will get back to you to schedule our first session together.</p>
+        <p>If you are interested, contact me <Link style={{color: 'var(--licorice-black)'}} to='/?id=contact'>here</Link>, and I will get back to you to schedule our first session together.</p>
         <p>During the first session, we will get to know each other, define your growth and learning outcomes, and establish the frequency and number of our sessions.</p>
         <p>Commitment to your home practice is essential for any meaningful and lasting changes, and it involves only a few minutes of mindfulness daily.</p>
         <p>It is also crucial to bring an attitude of kindness and compassion to yourself if, for whatever reason, you cannot practise.</p>

@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
-import { Link as ScrollLink } from 'react-scroll';
+// import { Link as ScrollLink } from 'react-scroll';
 
 import '../styles/Navbar.css';
 
@@ -38,13 +38,13 @@ function Navbar(){
         <ul>
           <li><NavLink onClick={closeNav} to="/" className={(navData) => (navData.isActive ? "navlink-bold" : 'none')}>Home</NavLink></li>
 
-          <li><ScrollLink onClick={closeNav} to="about" spy={true} smooth='true' duration={500} style={{ textDecoration: 'none', cursor: 'pointer' }}>About</ScrollLink></li>
+          <li><NavLink onClick={closeNav} to="/?id=about" style={{ textDecoration: 'none', cursor: 'pointer' }}>About</NavLink></li>
 
           <li><NavLink onClick={closeNav} to="/services" className={(navData) => (navData.isActive ? "navlink-bold" : 'none')}>Services</NavLink></li>
 
-          <li><ScrollLink onClick={closeNav} to="reviews" spy={true} smooth='true' duration={500} style={{ textDecoration: 'none', cursor: 'pointer' }}>Reviews</ScrollLink></li>
+          <li><NavLink onClick={closeNav} to="/?id=reviews"  style={{ textDecoration: 'none', cursor: 'pointer' }}>Reviews</NavLink></li>
 
-          <li><ScrollLink onClick={closeNav} to="contact" spy={true} smooth='true' duration={500} style={{ textDecoration: 'none', cursor: 'pointer' }}>Contact</ScrollLink></li>
+          <li><NavLink onClick={closeNav} to="/?id=contact"  style={{ textDecoration: 'none', cursor: 'pointer' }}>Contact</NavLink></li>
 
           <li style={{ marginRight: '0.5em' }}><a href='https://drive.google.com/file/d/1RSFSbcX48HvCzbIEpaUu3df6lHdl5BHk/view?usp=drivesdk' target='_blank' rel="noopener noreferrer">CV</a></li>
         </ul>
