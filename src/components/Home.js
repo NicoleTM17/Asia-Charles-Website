@@ -19,6 +19,7 @@ function Home() {
     if(navId){
       scroller.scrollTo(navId, {
         duration: 800,
+        delay: 10,
         smooth: true,
         });
     }

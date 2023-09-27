@@ -10,7 +10,7 @@
   font-weight: 300;
   text-align: center;
   font-style: italic;
-  font-family: 'Croissant One';
+  font-family: var(--croissant);
   animation: fade-in ease-in 1s;
 }
 
@@ -23,12 +23,12 @@
 
 .services-header{
   /* font-family: var(--josefin); */
-  font-family: 'Croissant One';
+  font-family: var(--croissant);
 }
 
 .services-subheader{
   /* font-family: var(--josefin); */
-  font-family: 'Croissant One';
+  font-family: var(--croissant);
 }
 
 .services-details{

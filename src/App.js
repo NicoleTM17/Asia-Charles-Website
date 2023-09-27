@@ -30,13 +30,8 @@ library.add(faCircleUp);
 WebFont.load({
   google: {
   families: [
-    'Bellota:ital,wght@0,300;1,400',
-    'Buda:wght@300',
-    'GFS+Neohellenic:ital@0,1',
     'Josefin+Sans:ital,wght@0,300;0,600;1,300;1,500',
-    'Quicksand:wght@300;600',
     'Text+Me+One',
-    'Asap:wght@300',
     'Ubuntu:wght@300;400&display=swap',
     'Croissant+One&family',
   ]

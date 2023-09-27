@@ -19,7 +19,7 @@ function Services() {
     <div id='services'>
       {/* PERSONALISED GUIDED MEDITATIONS */}
 
-      <div className='services-details' style={{backgroundImage: 'linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url(https://images.unsplash.com/photo-1499346030926-9a72daac6c63?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', color:'var(--licorice-black-color)'}}>
+      <div className='services-details' style={{backgroundImage: 'linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url(images/services-background1.jpg)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', color:'var(--licorice-black-color)'}}>
         <Link to='/' className='back-btn' style={{textDecoration: 'none'}}><span>← </span><span>Go back</span></Link>
         <h2 className='services-slogan'>I write the meditations keeping you in mind, using my knowledge, experience, intuition, and creativity.</h2>
 
@@ -54,7 +54,7 @@ function Services() {
       </div>
 
     {/* LIVE GUIDED MEDITATIONS */}
-    <div className='services-details' style={{backgroundImage: 'linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url(https://images.unsplash.com/photo-1528183429752-a97d0bf99b5a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', color:'var(--licorice-black-color)'}}>
+    <div className='services-details' style={{backgroundImage: 'linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url(images/services-background2.jpg)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', color:'var(--licorice-black-color)'}}>
       <h2 className='services-header' style={{fontSize: '2em', fontStyle: 'italic', fontWeight: 'bold', marginBottom: '.5em'}}>Live guided meditations</h2>
       <p>I love to guide people into beingness, whether the meditations are pre-recorded or live. Along with offering you pre-recorded personalised guided meditations, I also run 1-hour 1:1 live sessions, in which I use a mindfulness-based approach to...</p>
       <ul className='aims-list'>
@@ -78,7 +78,7 @@ function Services() {
       </div>
 
     {/* MINDFULNESS AND WELLBEING WORKSHOPS */}
-    <div className='services-details' style={{backgroundImage: 'linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url(https://images.unsplash.com/photo-1536623975707-c4b3b2af565d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', color:'var(--licorice-black-color)'}}>
+    <div className='services-details' style={{backgroundImage: 'linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url(images/services-background3.jpg)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', color:'var(--licorice-black-color)'}}>
       <h2 className='services-header' style={{fontSize: '2em', fontStyle: 'italic', fontWeight: 'bold', marginBottom: '.5em'}}>Mindfulness and Well-being workshops</h2>
       <p>Having taught mindfulness to children, teenagers, and young and older adults in education and healthcare, I run psychoeducational group workshops (online and in-person) for any age group on mindfulness and well-being*.</p>
       <p>Some of the topics we might explore and discuss during the workshops include:</p>
@@ -117,7 +117,7 @@ function Services() {
     </div>
 
     {/* MINDFULNESS AND WELLBEING SESSIONS */}
-    <div className='services-details' style={{backgroundImage: 'linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url(https://images.unsplash.com/photo-1439405326854-014607f694d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', color:'var(--licorice-black-color)'}}>
+    <div className='services-details' style={{backgroundImage: 'linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url(images/services-background4.jpg)', backgroundSize: 'cover', backgroundRepeat: 'no-repeat', color:'var(--licorice-black-color)'}}>
       <h2 className='services-header' style={{fontSize: '2em', fontStyle: 'italic', fontWeight: 'bold', marginBottom: '.5em'}}>Mindfulness and Well-being sessions</h2>
       <p>I run 1:1 mindfulness and well-being* sessions for adults.</p>
       <p>I teach you any of the topics listed above, including mindfulness-based tools and techniques to support you in developing resilience, cultivating joy, presence, and peace, and gaining a deeper understanding of yourself.</p>
