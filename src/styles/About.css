@@ -61,10 +61,9 @@
 }
 
 .about-page-img{
-  max-width: 100%; /* Ensure the image is responsive */
-  height: 50%;
+  max-width: 60%; /* Ensure the image is responsive */
+  height: auto;
   border: 5px solid var(--grass-green-color);
-  /* margin-left: 7em; */
 }
 
 .flower-border-top{
