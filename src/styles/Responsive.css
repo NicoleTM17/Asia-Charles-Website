@@ -20,21 +20,28 @@
 
   /* BANNER */
 
+
+  .carousel-container {
+    /* You can set a fixed height for the container or use percentage values based on your design requirements */
+    height: 100vh; /* 50% of viewport height, adjust as needed */
+ }
+
+
   .carousel-slogan{
-    font-size: 2em;
-    bottom: 10.5em;
-    left: 6em;
+    font-size: 2.5em;
+    bottom: 14em;
+    left: 4em;
   }
 
   .chevron-down{
-    top: 0em;
+    top: -2em;
     font-size: 3.5em;
     text-align: center;
   }
-
+/*
   .carousel .carousel-item img {
     height: 600px;
-  }
+  } */
 
   /* ABOUT  */
 
@@ -58,6 +65,8 @@
 
   .about-page-img{
     margin-top: -3em;
+    margin-left: 5em;
+    max-width: 70%;
   }
 
   .about-collage{
@@ -68,18 +77,28 @@
   /* SERVICES  */
 
   .outcomes-list li{
-    width: 50%;
+    width: 70%;
     margin-bottom: 2em;
   }
 
   .outcomes-list{
     display: block;
-    margin: 2em auto;
+    margin-left: 5em;
   }
 
   .disclaimer p{
     padding: 1em 5em;
   }
+
+  /* .outcomes-list li{
+    width: 80%;
+    margin-bottom: 2em;
+  }
+
+  .outcomes-list{
+    display: block;
+    margin-left: 2em;
+  } */
 
   /* REVIEWS   */
 
@@ -225,21 +244,26 @@
 
   /* BANNER */
 
+  .carousel-container {
+     /* You can set a fixed height for the container or use percentage values based on your design requirements */
+     height: 100vh; /* 50% of viewport height, adjust as needed */
+  }
+
   .carousel-slogan{
-    font-size: 1.5em;
-    bottom: 13em;
+    font-size: 2em;
+    bottom: 18em;
     left: 5em;
   }
 
   .chevron-down{
-    top: 0em;
+    top: -2em;
     font-size: 3em;
     text-align: center;
   }
 
-  .carousel .carousel-item img {
+  /* .carousel .carousel-item img {
     height: 550px;
-  }
+  } */
 
   /* ABOUT  */
 
@@ -386,21 +410,25 @@
 
   /* BANNER STYLING */
 
+  .carousel-container{
+    height: 100vh;
+  }
+
   .carousel-slogan{
-    font-size: 1.3em;
-    bottom: 9em;
-    left: 4em;
+    font-size: 2em;
+    bottom: 18em;
+    left: 0em;
   }
 
   .chevron-down{
-    top: 0em;
+    top: -2em;
     text-align: center;
-    font-size: 2em;
+    font-size: 3em;
   }
 
-  .carousel .carousel-item img {
+  /* .carousel .carousel-item img {
     height: 350px;
-  }
+  } */
 
   /* ABOUT STYLING */
 
@@ -581,7 +609,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    padding-top: 11em;
+    padding-top: 1em;
     width: 100%;
     height: 100%;
     flex-direction: column;

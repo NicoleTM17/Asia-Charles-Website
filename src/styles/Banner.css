@@ -1,15 +1,12 @@
 .carousel-image {
   position: relative;
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+  max-height: 100%; /* Ensure the image doesn't overflow */
 }
 
 .carousel-container {
-  max-height: 50%;
+   height: 122vh; /* 122% of viewport height, adjust as needed */
 }
-
-.carousel .carousel-item img {
-  height: 750px;
-}
-
 
 .slogan{
   /* font-family: var(--josefin); */
@@ -25,7 +22,7 @@
 
 .carousel-slogan{
   position: absolute;
-  bottom: 9em;
+  bottom: 12em;
   left: 7em;
   z-index: 1;
   color: var(--off-white-color);
@@ -37,7 +34,7 @@
 
 .chevron-down{
   position: absolute;
-  bottom: 1em;
+  bottom: 4.5em;
   text-align: center;
   font-size: 4em;
   z-index: 1;

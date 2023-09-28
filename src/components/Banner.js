@@ -16,21 +16,21 @@ function Banner() {
       <Carousel fade controls={false} indicators={false}>
 
         <Carousel.Item>
-          <img className="d-block w-100 carousel-image custom-opacity" src={Banner1} alt="First slide"/>
+          <img className="d-block min-vh-100 w-100 carousel-image custom-opacity" src={Banner1} alt="First slide"/>
           <Carousel.Caption>
             <h3 className='carousel-slogan slogan fade-in-text'>Be brave, be free, be you</h3>
             <Link to='#about' smooth><div><FontAwesomeIcon className='chevron-down' icon={faChevronDown}/></div></Link>
           </Carousel.Caption>
         </Carousel.Item>
 
-        <Carousel.Item> <img className="d-block w-100 carousel-image custom-opacity" src={Banner2} alt="Second slide"/>
+        <Carousel.Item> <img className="d-block min-vh-100 w-100 carousel-image custom-opacity" src={Banner2} alt="Second slide"/>
           <Carousel.Caption>
             <h3 className='carousel-slogan slogan'>Be brave, be free, be you</h3>
             <Link to='#about' smooth><div><FontAwesomeIcon className='chevron-down' icon={faChevronDown}/></div></Link>
           </Carousel.Caption>
         </Carousel.Item>
 
-        <Carousel.Item> <img className="d-block w-100 carousel-image custom-opacity" src={Banner3} alt="Third slide"/>
+        <Carousel.Item> <img className="d-block min-vh-100 w-100 carousel-image custom-opacity" src={Banner3} alt="Third slide"/>
           <Carousel.Caption>
             <h3 className='carousel-slogan slogan'>Be brave, be free, be you</h3>
             <Link to='#about' smooth><div><FontAwesomeIcon className='chevron-down' icon={faChevronDown}/></div></Link>
