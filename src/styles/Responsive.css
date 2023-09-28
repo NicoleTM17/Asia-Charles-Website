@@ -432,7 +432,7 @@
   }
 
   .welcome-content{
-    text-align: justify;
+    text-align: start;
     padding: 1em 0em;
   }
 
@@ -480,6 +480,7 @@
 
   .outcomes-list{
     display: block;
+    margin-left: 2em;
   }
 
   .services-circle-up{
@@ -494,7 +495,7 @@
 
   .my-reviews{
     display: block;
-    padding: 1.2em;
+    padding: 2rem;
   }
 
   /* CONTACT STYLING */
@@ -580,7 +581,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    padding-top: 12em;
+    padding-top: 11em;
     width: 100%;
     height: 100%;
     flex-direction: column;
