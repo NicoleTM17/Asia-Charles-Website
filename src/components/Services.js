@@ -46,7 +46,7 @@ function Services() {
 
       <div className='how-it-works'>
         <h2 className='services-subheader' style={{fontSize: '2em', fontStyle: 'italic', fontWeight: '200', marginBottom: '.5em'}}>How it works - Personalised guided meditations</h2>
-        <p>Get in touch by <Link style={{color: 'var(--licorice-black)'}} to='/?id=contact'>here</Link>, and I will get back to you to schedule a free consultation. Following this, I will send you an invoice and ask you to make the full payment.</p>
+        <p>Get in touch <Link style={{color: 'var(--licorice-black)'}} to='/?id=contact'>here</Link>, and I will get back to you to schedule a free consultation. Following this, I will send you an invoice and ask you to make the full payment.</p>
         <p>During our consultation, I will listen to your current situation, needs, desires, and intentions in a non-judgmental, kind, and compassionate way, asking open-ended questions. The duration of the consultation may vary between 30 and 60 minutes.</p>
         <p>I will then get back to you with a script draft. Once you have approved it, I will record the meditation and send you the final product.</p>
         <p>You must be 18+. This is not counselling or therapy.</p>
