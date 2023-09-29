@@ -19,14 +19,14 @@
   text-align: center;
 }
 
-.footer-insta{
+.footer-linkedin{
   font-size: 2em;
   color: var(--off-white-color);
   cursor: pointer;
   transition: 200ms ease-in-out;
 }
 
-.footer-insta:hover{
+.footer-linkedin:hover{
   opacity: 0.8;
 }
 

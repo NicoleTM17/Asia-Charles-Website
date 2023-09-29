@@ -10,6 +10,7 @@ import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import { faChevronUp } from '@fortawesome/free-solid-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faCircleUp } from '@fortawesome/free-solid-svg-icons';
 
 
@@ -24,6 +25,7 @@ library.add(faChevronUp);
 library.add(faInstagram);
 library.add(faYoutube);
 library.add(faCircleUp);
+library.add(faLinkedin);
 
 
 
