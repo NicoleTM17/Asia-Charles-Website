@@ -1,0 +1,25 @@
+
+#quote{
+  width: 100%;
+  height: auto;
+  /* background-color: var(--off-white-color); */
+  /* background: radial-gradient(circle at 10% 20%, rgb(215, 223, 252) 0%, rgb(255, 255, 255) 0%, rgb(215, 223, 252) 84%); */
+  background: radial-gradient(circle at 10% 20%, rgba(234, 249, 249, 0.67) 0.1%, rgba(239, 249, 251, 0.63) 90.1%);
+  padding: 3em 5em;
+}
+
+#quote .quote-text{
+  font-size: 1.5em;
+  font-weight: 300;
+  text-align: center;
+  font-style: italic;
+  color: var(--nav-color);
+  font-family: var(--croissant);
+}
+
+.quote-flower{
+  font-size: 2em;
+  font-weight: 300;
+  text-align: center;
+  color: var(--nav-color);
+}

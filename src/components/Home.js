@@ -1,6 +1,7 @@
 
 import Banner from './Banner.js';
 import About from './About.js';
+import Quote from './Quote.js';
 import Reviews from './Reviews.js';
 import Contact from './Contact.js';
 import { useEffect } from 'react';
@@ -30,6 +31,7 @@ function Home() {
       <Banner />
       <About/>
       <Reviews/>
+      <Quote/>
       <Contact/>
     </>
   );
