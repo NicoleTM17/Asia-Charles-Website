@@ -13,7 +13,7 @@ import { faChevronDown} from '@fortawesome/free-solid-svg-icons';
 function Banner() {
   return(
     <div id='banner' className='carousel-container'>
-      <Carousel fade controls={false} indicators={false}>
+      <Carousel fade controls={false} indicators={false} interval={5000}>
 
         <Carousel.Item>
           <img className="d-block min-vh-100 w-100 carousel-image custom-opacity" src={Banner1} alt="First slide"/>
