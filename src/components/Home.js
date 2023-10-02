@@ -9,6 +9,9 @@ import { useSearchParams } from 'react-router-dom';
 // import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 import { animateScroll as scroll, scroller } from 'react-scroll';
 
+// eslint-disable-next-line
+const unusedScroll = scroll; // Assign scroll to a disabled variable so it doesnt throw up error
+
 function Home() {
 
   const[SearchParams] = useSearchParams();
