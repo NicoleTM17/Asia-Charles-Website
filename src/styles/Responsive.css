@@ -100,6 +100,14 @@
     margin-left: 2em;
   } */
 
+    /* QUOTE STYLING */
+
+    #quote{
+      padding: 3em 3em;;
+    }
+
+
+
   /* REVIEWS   */
 
   .review-section{
@@ -112,6 +120,11 @@
 
   .contact-form-section{
     margin-left: 1em;
+  }
+
+  .contact-details{
+    width: 100%;
+    height: auto;
   }
 
   /* FOOTER  */
@@ -320,6 +333,17 @@
     right: .1em;
   }
 
+   /* QUOTE STYLING */
+
+   #quote{
+    padding: 2em 2em;;
+  }
+
+  #quote .quote-text{
+    font-size: 1.5em;
+  }
+
+
   /* REVIEWS   */
 
   #reviews {
@@ -511,6 +535,17 @@
   .services-circle-up{
     right: .1em;
   }
+
+  /* QUOTE STYLING */
+
+  #quote{
+    padding: 2em 2em;;
+  }
+
+  #quote .quote-text{
+    font-size: 1em;
+  }
+
 
   /* REVIEWS STYLING */
 
