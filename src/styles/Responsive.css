@@ -34,7 +34,7 @@
   }
 
   .chevron-down{
-    bottom: 1.5em;
+    bottom: 2.5em;
     font-size: 3.5em;
     text-align: center;
   }
@@ -267,7 +267,7 @@
   }
 
   .chevron-down{
-    bottom: 1.5em;
+    bottom: 2.5em;
     font-size: 3em;
     text-align: center;
   }
@@ -427,9 +427,8 @@
   }
 
   .chevron-down{
-    bottom: 1.5em;
+    bottom: 2.5em;
     text-align: center;
-    font-size: 3em;
   }
 
   /* ABOUT STYLING */
