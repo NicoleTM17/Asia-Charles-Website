@@ -34,14 +34,11 @@
 
 .about-text{
   padding: 5.5em 0em;
-  /* text-align: center; */
-  /* border: 1px solid red; */
   z-index: 1;
 }
 
 
 .about-bullets{
-  /* list-style-type: circle; */
   list-style-type: '✧  ';
 }
 
@@ -61,7 +58,8 @@
 }
 
 .about-page-img{
-  max-width: 60%; /* Ensure the image is responsive */
+  display: block;
+  max-width: 60%;
   height: auto;
   border: 5px solid var(--grass-green-color);
 }
