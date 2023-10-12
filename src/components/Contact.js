@@ -24,7 +24,7 @@ function Contact() {
 
     <div className='contact-details'>
       <h1 className='contact-header'>Contact and bookings</h1>
-      <p>Get in touch with me today to discuss...</p>
+      <p>Get in touch with me today to discuss:</p>
       <ul className='discussion-list'>
         <li>Bookings and Consultations</li>
         <li>Services</li>
@@ -32,10 +32,9 @@ function Contact() {
         <li>Business collaborations</li>
         <li>General enquiries</li>
       </ul>
-      <p>Email by filling in this form - I will get back to you within 2-4 working days </p>
-      <p>Or directly send an email to <a style={{color: 'var(--licorice-black-color'}} href='mailto:asicharles.mindfulness@gmail.com' target='_blank' rel="noreferrer"><span style={{textDecoration: 'underline', fontWeight: 'bold'}}>asicharles.mindfulness@gmail.com</span></a></p>
+      <p>Email me by filling in this form OR directly send an email to <a style={{color: 'var(--licorice-black-color'}} href='mailto:asicharles.mindfulness@gmail.com' target='_blank' rel="noreferrer"><span style={{textDecoration: 'underline', fontWeight: 'bold'}}>asicharles.mindfulness@gmail.com</span></a> and I will get back to you in 1-2 working days. </p>
 
-      <div className='youtube'>Subscribe to my <a style={{color: 'var(--licorice-black-color)'}} href='https://www.youtube.com/@justlovemeditations' target='_blank' rel="noreferrer"><FontAwesomeIcon style={{marginRight: '.2em'}} icon={faYoutube}/></a>channel to check out my guided meditations </div>
+      <div className='youtube'>→ Subscribe to my <a style={{color: 'var(--licorice-black-color)'}} href='https://www.youtube.com/@justlovemeditations' target='_blank' rel="noreferrer"><FontAwesomeIcon style={{marginRight: '.2em'}} icon={faYoutube}/></a>channel to listen to my guided meditations </div>
       <a style={{color: 'var(--licorice-black-color)', fontWeight: 'bold'}} href='https://www.youtube.com/@justlovemeditations' target='_blank' rel="noreferrer"><span>Just Love Meditations</span></a>
 
     </div>

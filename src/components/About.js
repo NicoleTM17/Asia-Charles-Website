@@ -16,7 +16,7 @@ function About(){
           <h1 className='welcome-txt'><span style={{fontSize: '3.5em', color: '#var(--grass-green-color)'}}>W</span><span className='move-txt' style={{marginLeft: '-0.5em', fontWeight: '300'}}>elcome, I'm Asia</span></h1>
           <p style={{textAlign: 'center', fontSize: '2em', color: 'var(--grass-green-color'}}>⋆｡°✩</p>
           <div className='welcome-content'>
-            A passionate, creative, and playful human being here to guide you into being by coaching you on all things mindfulness, meditation, and emotional and mental well-being.
+            A passionate, creative, and playful human being here to guide you into being by sharing with you on all things mindfulness, meditation, and emotional and mental well-being.
             <br/> <br/>
             As a Psychology graduate, Art Therapy trainee, and Mindfulness Coach, I have what it takes to support you in living a more authentic and peaceful life in connection to yourself and others. I have worked with a range of generations, from children to teenagers, and from young to older adults in healthcare and education, and cannot wait to support you on your journey!
             <br/> <br/>
@@ -30,9 +30,9 @@ function About(){
             <br/><br/>
             By learning to welcome my experiences with more openness and less judgement, I became more courageous and better able to navigate the waves of emotions and grief flooding into my life frequently at the time.
             <br/><br/>
-            Through my consistent and intentional mindfulness practice, I began to nurture a more genuine appreciation for life, taking in all of the small, yet golden opportunities to take in joy, and feeling more alive than ever before.<br/>
+            Through my consistent and intentional mindfulness practice, I began to nurture a more genuine appreciation for life, taking in all of the small, yet golden opportunities to experience joy, and feeling more alive than ever before.<br/>
             <br/>
-            I teach you how to master the art of being present, so that you may...
+            I teach you how to master the art of being present, so that you may:
             <br/><br/>
             <ul style={{lineHeight: '2', fontWeight: '200'}}>
               <li className='about-bullets'>Embrace your experiences more openly without assigning any meaning to them and reduce suffering</li>
@@ -44,11 +44,9 @@ function About(){
 
 
 
-          {/* <Link to='#services' smooth style={{textDecoration: 'none'}}><div className='services-btn'>Check out my services</div></Link> */}
           <br/>
           <div className='services-link'>Check out what I have to offer via my <Link to='/services' className='services-hover' smooth='true' style={{color: 'var(--grass-green-color', fontWeight: '500'}}>services</Link></div>
 
-          {/* <img className='slogan-txt' src='images/slogan.png' alt='slogan'/> */}
         </div>
 
         <div className='about-collage'>

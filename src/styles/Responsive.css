@@ -34,7 +34,7 @@
   }
 
   .chevron-down{
-    /* bottom: 0; */
+    bottom: 1.5em;
     font-size: 3.5em;
     text-align: center;
   }
@@ -110,10 +110,8 @@
 
   /* REVIEWS   */
 
-  .review-section{
-    width: 100%;
-    height: 300px;
-    padding: 0;
+  .reviews-wrapper{
+    display: block;
   }
 
   /* CONTACT   */
@@ -269,7 +267,7 @@
   }
 
   .chevron-down{
-    /* bottom: 0; */
+    bottom: 1.5em;
     font-size: 3em;
     text-align: center;
   }
@@ -346,21 +344,8 @@
 
   /* REVIEWS   */
 
-  #reviews {
-    padding: 6em 2em; /* Adjust padding for small screens */
-  }
-
-  .my-reviews{
+  .reviews-wrapper{
     display: block;
-  }
-
-  .review-section{
-    padding: 0;
-    height: 250px;
-  }
-
-  .review-txt{
-    margin-top: -2em;
   }
 
   /* CONTACT   */
@@ -442,14 +427,10 @@
   }
 
   .chevron-down{
-    /* bottom: 0; */
+    bottom: 1.5em;
     text-align: center;
     font-size: 3em;
   }
-
-  /* .carousel .carousel-item img {
-    height: 350px;
-  } */
 
   /* ABOUT STYLING */
 
@@ -486,13 +467,14 @@
   }
 
   .about-collage{
-    display: block;
+    display: initial;
   }
 
   .about-page-img{
     max-width: 250px;
-    height: auto;
-    margin-left: -4em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
   }
 
   .about-collage-art{
@@ -549,14 +531,10 @@
 
   /* REVIEWS STYLING */
 
-  #reviews {
-    padding: 5em 1em; /* Adjust padding for small screens */
+  .reviews-wrapper{
+    display: block;
   }
 
-  .my-reviews{
-    display: block;
-    padding: 2rem;
-  }
 
   /* CONTACT STYLING */
 
