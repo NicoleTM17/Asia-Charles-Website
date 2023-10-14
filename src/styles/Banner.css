@@ -8,8 +8,15 @@
    height: 122vh; /* 122% of viewport height, adjust as needed */
 }
 
+.carousel-slogan{
+  position: absolute;
+  bottom: 12em;
+  left: 7em;
+  z-index: 1;
+  color: var(--off-white-color);
+}
+
 .slogan{
-  /* font-family: var(--josefin); */
   font-family: 'Croissant One', cursive;
   font-style: italic;
   font-size: 3em;
@@ -20,13 +27,6 @@
   font-size: 2em;
 }
 
-.carousel-slogan{
-  position: absolute;
-  bottom: 12em;
-  left: 7em;
-  z-index: 1;
-  color: var(--off-white-color);
-}
 
 .custom-opacity{
   opacity: 0.8;

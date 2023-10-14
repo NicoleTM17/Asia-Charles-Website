@@ -28,9 +28,13 @@
 
 
   .carousel-slogan{
-    font-size: 2.5em;
-    bottom: 14em;
+    bottom: 15em;
     left: 4em;
+  }
+
+  .slogan{
+    font-size: 2.3em;
+
   }
 
   .chevron-down{
@@ -261,9 +265,12 @@
   }
 
   .carousel-slogan{
-    font-size: 2em;
-    bottom: 18em;
+    bottom: 21em;
     left: 5em;
+  }
+
+  .slogan{
+    font-size: 1.7em;
   }
 
   .chevron-down{
@@ -421,9 +428,12 @@
   }
 
   .carousel-slogan{
-    font-size: 2em;
     bottom: 17em;
     left: 0em;
+  }
+
+  .slogan{
+    font-size: 2em;
   }
 
   .chevron-down{
