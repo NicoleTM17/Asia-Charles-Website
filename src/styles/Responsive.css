@@ -3,13 +3,13 @@
 
   /* NAVBAR */
 
-  .brand-logo {
+  /* .brand-logo {
     width: 30%;
     margin: .2rem;
-  }
+  } */
 
   .brand-logo img{
-    width: 50%;
+    width: 140px;
   }
 
   .navbar-links li{
@@ -133,13 +133,13 @@
 
   /* NAVBAR */
 
-  .brand-logo {
+  /* .brand-logo {
     width: 30%;
     margin: .2rem;
-  }
+  } */
 
   .brand-logo img{
-    width: 45%;
+    width: 120px;
   }
 
   .navbar-links li{
@@ -403,15 +403,15 @@
 
   /* NAVBAR STYLING */
 
-  .brand-logo {
+  /* .brand-logo {
     width: 35%;
     height: auto;
     margin: .2rem;
     z-index: 3;
-  }
+  } */
 
   .brand-logo img{
-    width: 70%;
+    width: 100px;
   }
 
   /* BANNER STYLING */
