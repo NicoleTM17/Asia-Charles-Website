@@ -21,7 +21,7 @@
 /* #ABBB5A green */
 
 .wrapper{
-  width: 100%; /* might need to get rid of if implementing sticky */
+  width: 100%;
   height: 100%;
-  overflow-x: hidden; /* might need to get rid of if implementing sticky */
+  overflow-x: hidden;
 }

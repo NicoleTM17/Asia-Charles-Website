@@ -1,14 +1,4 @@
 
-* { /* Boilerplate styling to make it easier */
-  box-sizing: border-box;
-}
-
-body{ /* Added so that everything in the nav is budged up to the top of the screen */
-  margin: 0;
-  padding: 0;
-}
-
-
 /* NAVBAR */
 
 .navbar {
