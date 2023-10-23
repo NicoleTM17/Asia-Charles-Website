@@ -1,4 +1,11 @@
 
+@media (orientation: landscape) {
+  .wrapper {
+    margin: 0;
+    overflow-x: hidden;
+  }
+}
+
 @media (max-width: 960px){
 
   /* NAVBAR */
