@@ -1,42 +1,39 @@
+
+/* .carousel-container {
+  height: 122vh;  have kept hidden as not sure if necessary
+} */
+
+
 .carousel-image {
-  position: relative;
-  object-fit: cover; /* Maintain aspect ratio and cover the container */
-  max-height: 100%; /* Ensure the image doesn't overflow */
+  object-fit: cover;
+  max-height: 100%;
 }
 
-.carousel-container {
-   height: 122vh; /* 122% of viewport height, adjust as needed */
-}
-
-.carousel-slogan{
-  position: absolute;
-  bottom: 12em;
-  left: 7em;
-  z-index: 1;
-  color: var(--off-white-color);
-}
+/* .carousel-caption{
+  top: 0;
+} */
 
 .slogan{
   font-family: 'Croissant One', cursive;
   font-style: italic;
-  font-size: 3em;
+  font-size: 3rem;
   font-weight: 300;
+  z-index: 1;
+  color: var(--off-white-color);
 }
 
 .dot{
   font-size: 2em;
 }
 
-
 .custom-opacity{
   opacity: 0.8;
 }
 
 .chevron-down{
-  position: absolute;
-  bottom: 4.5em;
+  margin-top: 15rem;
   text-align: center;
-  font-size: 4em;
+  font-size: 4rem;
   z-index: 1;
   color: var(--licorice-black-color);
   opacity: 0.7;
@@ -46,8 +43,6 @@
 .chevron-down:hover{
   opacity: 0.4;
 }
-
-
 
 .fade-in-text{
   animation: fadeIn 5s;

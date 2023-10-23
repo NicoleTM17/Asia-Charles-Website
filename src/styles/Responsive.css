@@ -15,16 +15,9 @@
 
   /* BANNER */
 
-
-  .carousel-container {
+  /* .carousel-container {
     height: 100vh;
- }
-
-
-  .carousel-slogan{
-    bottom: 15em;
-    left: 4em;
-  }
+ } */
 
   .slogan{
     font-size: 2.3em;
@@ -32,14 +25,9 @@
   }
 
   .chevron-down{
-    bottom: 4em;
     font-size: 3.5em;
-    text-align: center;
   }
-/*
-  .carousel .carousel-item img {
-    height: 600px;
-  } */
+
 
   /* ABOUT  */
 
@@ -253,24 +241,16 @@
 
   /* BANNER */
 
-  .carousel-container {
-     /* You can set a fixed height for the container or use percentage values based on your design requirements */
-     height: 100vh; /* 50% of viewport height, adjust as needed */
-  }
-
-  .carousel-slogan{
-    bottom: 21em;
-    left: 5em;
-  }
+  /* .carousel-container {
+    height: 100vh;
+ } */
 
   .slogan{
-    font-size: 1.7em;
+    font-size: 2.5rem;
   }
 
   .chevron-down{
-    bottom: 4em;
-    font-size: 3em;
-    text-align: center;
+    font-size: 3rem;
   }
 
 
@@ -517,23 +497,14 @@
 
   /* BANNER STYLING */
 
-  .carousel-container{
+  /* .carousel-container {
     height: 100vh;
-  }
-
-  .carousel-slogan{
-    bottom: 17em;
-    left: 0em;
-  }
+ } */
 
   .slogan{
-    font-size: 2em;
+    font-size: 2rem;
   }
 
-  .chevron-down{
-    bottom: 4em;
-    text-align: center;
-  }
 
   /* ABOUT STYLING */
 
