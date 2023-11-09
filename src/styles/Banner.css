@@ -15,9 +15,8 @@
 
 .slogan{
   font-family: 'Croissant One', cursive;
-  font-style: italic;
+  /* font-family: --croissant; */
   font-size: 3rem;
-  font-weight: 300;
   z-index: 1;
   color: var(--off-white-color);
 }
