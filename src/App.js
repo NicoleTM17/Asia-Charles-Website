@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 
-import WebFont from 'webfontloader';
+// import WebFont from 'webfontloader';
 import './App.css';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
@@ -29,16 +29,16 @@ library.add(faLinkedin);
 
 
 
-WebFont.load({
-  google: {
-  families: [
-    'Josefin+Sans:ital,wght@0,300;0,600;1,300;1,500',
-    'Text+Me+One',
-    'Ubuntu:wght@300;400&display=swap',
-    'Croissant+One&family',
-  ]
-  }
-  });
+// WebFont.load({
+//   google: {
+//   families: [
+//     'Josefin+Sans:ital,wght@0,300;0,600;1,300;1,500',
+//     'Text+Me+One',
+//     'Ubuntu:wght@300;400&display=swap',
+//     'Croissant+One&family',
+//   ]
+//   }
+//   });
 
 function App() {
   return (

@@ -1,6 +1,28 @@
 
 /* DEFINING COLOURS */
 
+@font-face{
+  font-family: text-me;
+  src: url(../public/assets/TextMeOne-Regular.ttf);
+}
+
+/* @font-face{
+  font-family: 'Croissant One';
+  font-style: italic;
+  font-weight: 100;
+  src: url(../public/assets/CroissantOne-Regular.ttf);
+} */
+
+@font-face{
+  font-family: josefin;
+  src: url(../public/assets/JosefinSans-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: ubuntu;
+  src: url(../public/assets/Ubuntu-Regular.ttf);
+}
+
 :root {
 
   /* COLOURS */
@@ -10,12 +32,6 @@
   --platinum-color: #EBEAE9; /* beige background colour */
   --grass-green-color: #ABBB5A; /* green colour */
   --yellow-color: #F1F3B4; /* yellow colour */
-
-  /* FONT FAMILY */
-  --josefin : 'Josefin Sans', sans-serif; /* for banner and headers */
-  --text-me : 'Text Me One', sans-serif; /* for paragraphs NOT USING */
-  --ubuntu : 'Ubuntu', sans-serif; /* for paragraphs */
-  --croissant : 'Croissant One'; /* more italic, cursive text */
 }
 
 /* #ABBB5A green */

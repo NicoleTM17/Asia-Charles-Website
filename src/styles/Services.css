@@ -10,7 +10,7 @@
   font-weight: 300;
   text-align: center;
   font-style: italic;
-  font-family: var(--croissant);
+  font-family: 'Croissant One';
   animation: fade-in ease-in 1s;
 }
 
@@ -23,12 +23,12 @@
 
 .services-header{
   /* font-family: var(--josefin); */
-  font-family: var(--croissant);
+  font-family: 'Croissant One';
 }
 
 .services-subheader{
   /* font-family: var(--josefin); */
-  font-family: var(--croissant);
+  font-family: 'Croissant One';
 }
 
 .services-details{
@@ -39,7 +39,7 @@
   /* color: #85a8b7; */
   color: #4796b7;
   line-height: 2;
-  font-family: var(--ubuntu);
+  font-family: ubuntu;
   font-weight: 200;
   /* border-bottom: 3px solid #85a8b7; */
 }
@@ -55,7 +55,7 @@
   background-color: var(--nav-color);
   width: 100%;
   padding: 2em 2em;
-  font-family: var(--ubuntu);
+  font-family: ubuntu;
   font-weight: 200;
   color: var(--off-white-color);
 }
@@ -84,7 +84,7 @@
   background-color: white;
   width: 100%;
   padding: 2em 2em;
-  font-family: var(--ubuntu);
+  font-family: ubuntu;
   font-weight: 200;
   background: linear-gradient(109.6deg, rgb(204, 228, 247) 11.2%, rgb(237, 246, 250) 100.2%);
 }
@@ -111,7 +111,7 @@
 .book{
   font-size: 1em;
   font-weight: bold;
-  font-family: var(--ubuntu);
+  font-family: ubuntu;
   margin-top: 2em;
   /* padding: 1em; */
   /* text-align: center; */

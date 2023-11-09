@@ -7,7 +7,7 @@
   align-items: center;
   background-color: var(--nav-color);
   color: var(--off-white-color);
-  font-family: var(--text-me);
+  font-family: text-me;
 }
 
 .brand-logo img {
