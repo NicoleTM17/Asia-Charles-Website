@@ -1,4 +1,3 @@
-// import { HashLink as Link } from 'react-router-hash-link';
 import { Link } from 'react-router-dom';
 import '../styles/About.css';
 
@@ -32,7 +31,7 @@ function About(){
             <br/><br/>
             Through my consistent and intentional mindfulness practice, I began to nurture a more genuine appreciation for life, taking in all of the small, yet golden opportunities to experience joy, and feeling more alive than ever before.<br/>
             <br/>
-            I teach you how to master the art of being present, so that you may:
+            I'll teach you how to master the art of being present, so that you may:
             <br/><br/>
             <ul style={{lineHeight: '2', fontWeight: '200'}}>
               <li className='about-bullets'>Embrace your experiences more openly without assigning any meaning to them and reduce suffering</li>
